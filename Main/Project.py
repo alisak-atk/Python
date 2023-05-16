@@ -1,11 +1,23 @@
-print("Hello World!")
-print("Hello bro!!")
-x = int(input(">>"))
-y = int(input(">>"))
-z = x + y
-print(z)
-print("=====XD=====")
-print("------3232--------")
-phybybnyb
-gdgdgdgd
-          ffh
+# print("Hello World!")
+# print("Hello bro!!")
+# x = int(input(">>"))
+# y = int(input(">>"))
+# z = x + y
+# print(z)
+# print("=====XD=====")
+# print("------3232--------")
+
+print("======================================")
+print("==          WELCOME TO OUR          ==")
+print("==            COFFEE SHOP           ==")
+print("======================================")
+print("==        MENU BOARD - COFFEE       ==")
+print("======================================")
+print("== 1. Espresso                      ==")
+print("== 2. Americano                     ==")
+print("== 3. Latte                         ==")
+print("== 4. Cappuccino                    ==")
+print("== 5. Mocha                         ==")
+print("== 6. Chocolate                     ==")
+print("== 8. Frappuccino                   ==")
+print("======================================")
