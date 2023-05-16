@@ -1,10 +1,11 @@
 print("Hello World!")
 print("Hello bro!!")
-x = input(int(">>")
-y = input(int(">>")
-  z = x + y
-    print(z)
+x = int(input(">>"))
+y = int(input(">>"))
+z = x + y
+print(z)
 print("=====XD=====")
+print("--------------")
           
 
           
