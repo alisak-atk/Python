@@ -69,22 +69,24 @@ print("|| 16. Cupcake                   || 17. Brownie                   || 18. 
 print("|| 19. Cookie                    || 20. Donut                     || 21. Muffin                    ||")
 print("|| 22. Croissant                 ||                               ||                               ||")
 print("======================================================================================================")
-
-A = int(input("Choose : "))
-if A == 1:
-    main1()
-    B = int(input("Choose : "))
-    if B == 1:
-        main2()
-        C == int(input("Choose : "))
-        if C == 1:
-            print(f"Your menu is Espresso")
-            D = str(input("You wanna order: Yes or No"))
-            if D == "Yes":
-                return A 
-            elif D == "No":
-                print("Your money : ")
-    elif B ==2:
-        main2()
-    elif B ==3:
-        main2()
+count = 0
+espresso = 0
+while True:
+    A = int(input("Choose: "))
+    if A == 1:
+        main1()
+        B = int(input("Choose: "))
+        if B == 1:
+            main2()
+            C = int(input("Choose: "))
+            if C == 1:
+                print("Your menu is Espresso")
+                D = input("You wanna order: Yes or No :")
+                if D == "No":
+                    break  
+                    print("Its equal = 10.000")
+                elif D == "Yes":
+                    espresso = espresso + 1 
+                    print(f"Your Order is Espresso: {espresso} cup(s)")
+    else:
+        print("Invalid input. Please choose again.")
