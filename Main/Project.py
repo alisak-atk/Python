@@ -70,4 +70,21 @@ print("|| 19. Cookie                    || 20. Donut                     || 21. 
 print("|| 22. Croissant                 ||                               ||                               ||")
 print("======================================================================================================")
 
-if 
+A = int(input("Choose : "))
+if A == 1:
+    main1()
+    B = int(input("Choose : "))
+    if B == 1:
+        main2()
+        C == int(input("Choose : "))
+        if C == 1:
+            print(f"Your menu is Espresso")
+            D = str(input("You wanna order: Yes or No"))
+            if D == "Yes":
+                return A 
+            elif D == "No":
+                print("Your money : ")
+    elif B ==2:
+        main2()
+    elif B ==3:
+        main2()
