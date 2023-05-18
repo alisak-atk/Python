@@ -545,12 +545,12 @@ while True:
                     buble_tea = buble_tea + 1 
                     print(f"Your Order is buble_tea: {buble_tea} cup(s)")
     elif A == 16:
-        print("Your menu is ")
+        print("Your menu is Cupcake")
         D = input("You wanna order: Yes or No : ")
         if D == "ํYes":
             Cupcake = Cupcake + 1 
             print(f"Your Order is buble_tea: {Cupcake} cup(s)")
-        elif D == "No"
+        elif D == "No":
             break           
     else:
         print("Invalid input. Please choose again.")
