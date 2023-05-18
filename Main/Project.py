@@ -31,6 +31,7 @@
 # print("== 13. Bubble Tea                   ==")
 # print("== 14. Thai Tea                     ==")
 # print("======================================")
+
 def main1():
     print("===================================================")
     print(" ||                     TYPE                     ||")
@@ -69,9 +70,9 @@ def main():
     print("======================================================================================================")
     print("||                                      MENU BOARD - SWEETS                                        ||")
     print("======================================================================================================")
-    print("|| 16. Cupcake     |  12.000 K   || 17. Brownie       |   12.000 K        || 18. Macaron |12.000 K ||")
-    print("|| 19. Cookie      |  14.000 K   || 20. Donut         |   14.000 K        || 21. Muffin  |14.000 K ||")
-    print("|| 22. Croissant   |  16.000 K   ||                                       ||                       ||")
+    print("|| 16. Cupcake     |  12.000 K   || 17. Brownie   |   12.000 K    || 18. Macaron    |   12.000 K   ||")
+    print("|| 19. Cookie      |  14.000 K   || 20. Donut     |   14.000 K    || 21. Muffin     |   14.000 K   ||")
+    print("|| 22. Croissant   |  16.000 K   ||                               ||                               ||")
     print("======================================================================================================")
 
 count = 0
@@ -549,8 +550,9 @@ while True:
         if D == "ํYes":
             Cupcake = Cupcake + 1 
             print(f"Your Order is buble_tea: {Cupcake} cup(s)")
-        elif D == "No":
+        elif D == "No"
             break           
     else:
         print("Invalid input. Please choose again.")
+        
 
