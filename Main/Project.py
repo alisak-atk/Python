@@ -224,15 +224,143 @@ bubble_tea_shake_s = 0
 bubble_tea_shake_m = 0
 bubble_tea_shake_l = 0
 
-espresso_hot_s_price = 0
-espresso_hot_m_price = 0
-espresso_hot_l_price = 0
-espresso_cold_s_price = 0
-espresso_cold_m_price = 0
-espresso_cold_l_price = 0
-espresso_shake_s_price = 0
-espresso_shake_m_price = 0
-espresso_shake_l_price = 0
+espresso_hot_s_price = 20000
+espresso_hot_m_price = 25000
+espresso_hot_l_price = 30000
+espresso_cold_s_price = 20000
+espresso_cold_m_price = 25000
+espresso_cold_l_price = 30000
+espresso_shake_s_price = 20000
+espresso_shake_m_price = 25000
+espresso_shake_l_price = 30000
+
+americano_hot_s_price = 20000
+americano_hot_m_price = 25000
+americano_hot_l_price = 30000
+americano_cold_s_price = 20000
+americano_cold_m_price = 25000
+americano_cold_l_price = 30000
+americano_shake_s_price = 20000
+americano_shake_m_price = 25000
+americano_shake_l_price = 30000
+
+latte_hot_s_price = 20000
+latte_hot_m_price = 25000
+latte_hot_l_price = 30000
+latte_cold_s_price = 20000
+latte_cold_m_price = 25000
+latte_cold_l_price = 30000
+latte_shake_s_price = 20000
+latte_shake_m_price = 25000
+latte_shake_l_price = 30000
+
+cappuccino_hot_s_price = 20000
+cappuccino_hot_m_price = 25000
+cappuccino_hot_l_price = 30000
+cappuccino_cold_s_price = 20000
+cappuccino_cold_m_price = 25000
+cappuccino_cold_l_price = 30000
+cappuccino_shake_s_price = 20000
+cappuccino_shake_m_price = 25000
+cappuccino_shake_l_price = 30000
+
+mocha_hot_s_price = 20000
+mocha_hot_m_price = 25000
+mocha_hot_l_price = 30000
+mocha_cold_s_price = 20000
+mocha_cold_m_price = 25000
+mocha_cold_l_price = 30000
+mocha_shake_s_price = 20000
+mocha_shake_m_price = 25000
+mocha_shake_l_price = 30000
+
+coffee_hot_s_price = 20000
+coffee_hot_m_price = 25000
+coffee_hot_l_price = 30000
+coffee_cold_s_price = 20000
+coffee_cold_m_price = 25000
+coffee_cold_l_price = 30000
+coffee_shake_s_price = 20000
+coffee_shake_m_price = 25000
+coffee_shake_l_price = 30000
+
+black_tea_hot_s_price = 20000
+black_tea_hot_m_price = 25000
+black_tea_hot_l_price = 30000
+black_tea_cold_s_price = 20000
+black_tea_cold_m_price = 25000
+black_tea_cold_l_price = 30000
+black_tea_shake_s_price = 20000
+black_tea_shake_m_price = 25000
+black_tea_shake_l_price = 30000
+
+green_tea_hot_s_price = 20000
+green_tea_hot_m_price = 25000
+green_tea_hot_l_price = 30000
+green_tea_cold_s_price = 20000
+green_tea_cold_m_price = 25000
+green_tea_cold_l_price = 30000
+green_tea_shake_s_price = 20000
+green_tea_shake_m_price = 25000
+green_tea_shake_l_price = 30000
+
+oolong_tea_hot_s_price = 20000
+oolong_tea_hot_m_price = 25000
+oolong_tea_hot_l_price = 30000
+oolong_tea_cold_s_price = 20000
+oolong_tea_cold_m_price = 25000
+oolong_tea_cold_l_price = 30000
+oolong_tea_shake_s_price = 20000
+oolong_tea_shake_m_price = 25000
+oolong_tea_shake_l_price = 30000
+
+chai_tea_hot_s_price = 20000
+chai_tea_hot_m_price = 25000
+chai_tea_hot_l_price = 30000
+chai_tea_cold_s_price = 20000
+chai_tea_cold_m_price = 25000
+chai_tea_cold_l_price = 30000
+chai_tea_shake_s_price = 20000
+chai_tea_shake_m_price = 25000
+chai_tea_shake_l_price = 30000
+
+herbal_tea_hot_s_price = 20000
+herbal_tea_hot_m_price = 25000
+herbal_tea_hot_l_price = 30000
+herbal_tea_cold_s_price = 20000
+herbal_tea_cold_m_price = 25000
+herbal_tea_cold_l_price = 30000
+herbal_tea_shake_s_price = 20000
+herbal_tea_shake_m_price = 25000
+herbal_tea_shake_l_price = 30000
+
+thai_tea_hot_s_price = 20000
+thai_tea_hot_m_price = 25000
+thai_tea_hot_l_price = 30000
+thai_tea_cold_s_price = 20000
+thai_tea_cold_m_price = 25000
+thai_tea_cold_l_price = 30000
+thai_tea_shake_s_price = 20000
+thai_tea_shake_m_price = 25000
+thai_tea_shake_l_price = 30000
+
+bubble_tea_hot_s_price = 20000
+bubble_tea_hot_m_price = 25000
+bubble_tea_hot_l_price = 30000
+bubble_tea_cold_s_price = 20000
+bubble_tea_cold_m_price = 25000
+bubble_tea_cold_l_price = 30000
+bubble_tea_shake_s_price = 20000
+bubble_tea_shake_m_price = 25000
+bubble_tea_shake_l_price = 30000
+
+cupcake_price = 12000
+brownie_price = 12000
+macaron_price = 12000
+cookie_price = 14000
+donut_price = 14000
+muffin_price = 14000
+croissant_price = 16000
 
 count = 0
 espresso = 0
