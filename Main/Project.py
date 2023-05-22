@@ -31,6 +31,7 @@
 # print("== 13. Bubble Tea                   ==")
 # print("== 14. Thai Tea                     ==")
 # print("======================================")
+
 def main1():
     print("===================================================")
     print(" ||                     TYPE                     ||")
@@ -69,10 +70,169 @@ def main():
     print("======================================================================================================")
     print("||                                      MENU BOARD - SWEETS                                        ||")
     print("======================================================================================================")
-    print("|| 16. Cupcake     |  12.000 K   || 17. Brownie       |   12.000 K        || 18. Macaron |12.000 K ||")
-    print("|| 19. Cookie      |  14.000 K   || 20. Donut         |   14.000 K        || 21. Muffin  |14.000 K ||")
-    print("|| 22. Croissant   |  16.000 K   ||                                       ||                       ||")
+    print("|| 16. Cupcake     |  12.000 K   || 17. Brownie   |   12.000 K    || 18. Macaron    |   12.000 K   ||")
+    print("|| 19. Cookie      |  14.000 K   || 20. Donut     |   14.000 K    || 21. Muffin     |   14.000 K   ||")
+    print("|| 22. Croissant   |  16.000 K   ||                               ||                               ||")
     print("======================================================================================================")
+
+espresso_hot_s = 0
+espresso_hot_m = 0
+espresso_hot_l = 0
+espresso_cold_s = 0
+espresso_cold_m = 0
+espresso_cold_l = 0
+espresso_shake_s = 0
+espresso_shake_m = 0
+espresso_shake_l = 0
+
+americano_hot_s = 0
+americano_hot_m = 0
+americano_hot_l = 0
+americano_cold_s = 0
+americano_cold_m = 0
+americano_cold_l = 0
+americano_shake_s = 0
+americano_shake_m = 0
+americano_shake_l = 0
+
+latte_hot_s = 0
+latte_hot_m = 0
+latte_hot_l = 0
+latte_cold_s = 0
+latte_cold_m = 0
+latte_cold_l = 0
+latte_shake_s = 0
+latte_shake_m = 0
+latte_shake_l = 0
+
+cappuccino_hot_s = 0
+cappuccino_hot_m = 0
+cappuccino_hot_l = 0
+cappuccino_cold_s = 0
+cappuccino_cold_m = 0
+cappuccino_cold_l = 0
+cappuccino_shake_s = 0
+cappuccino_shake_m = 0
+cappuccino_shake_l = 0
+
+chocolate_hot_m = 0
+chocolate_hot_l = 0
+chocolate_cold_s = 0
+chocolate_cold_m = 0
+chocolate_cold_l = 0
+chocolate_shake_s = 0
+chocolate_shake_m = 0
+chocolate_shake_l = 0
+
+frappuccino_hot_s = 0
+frappuccino_hot_m = 0
+frappuccino_hot_l = 0
+frappuccino_cold_s = 0
+frappuccino_cold_m = 0
+frappuccino_cold_l = 0
+frappuccino_shake_s = 0
+frappuccino_shake_m = 0
+frappuccino_shake_l = 0
+
+mocha_hot_s = 0
+mocha_hot_m = 0
+mocha_hot_l = 0
+mocha_cold_s = 0
+mocha_cold_m = 0
+mocha_cold_l = 0
+mocha_shake_s = 0
+mocha_shake_m = 0
+mocha_shake_l = 0
+
+coffee_hot_s = 0
+coffee_hot_m = 0
+coffee_hot_l = 0
+coffee_cold_s = 0
+coffee_cold_m = 0
+coffee_cold_l = 0
+coffee_shake_s = 0
+coffee_shake_m = 0
+coffee_shake_l = 0
+
+black_tea_hot_s = 0
+black_tea_hot_m = 0
+black_tea_hot_l = 0
+black_tea_cold_s = 0
+black_tea_cold_m = 0
+black_tea_cold_l = 0
+black_tea_shake_s = 0
+black_tea_shake_m = 0
+black_tea_shake_l = 0
+
+green_tea_hot_s = 0
+green_tea_hot_m = 0
+green_tea_hot_l = 0
+green_tea_cold_s = 0
+green_tea_cold_m = 0
+green_tea_cold_l = 0
+green_tea_shake_s = 0
+green_tea_shake_m = 0
+green_tea_shake_l = 0
+
+oolong_tea_hot_s = 0
+oolong_tea_hot_m = 0
+oolong_tea_hot_l = 0
+oolong_tea_cold_s = 0
+oolong_tea_cold_m = 0
+oolong_tea_cold_l = 0
+oolong_tea_shake_s = 0
+oolong_tea_shake_m = 0
+oolong_tea_shake_l = 0
+
+chai_tea_hot_s = 0
+chai_tea_hot_m = 0
+chai_tea_hot_l = 0
+chai_tea_cold_s = 0
+chai_tea_cold_m = 0
+chai_tea_cold_l = 0
+chai_tea_shake_s = 0
+chai_tea_shake_m = 0
+chai_tea_shake_l = 0
+
+herbal_tea_hot_s = 0
+herbal_tea_hot_m = 0
+herbal_tea_hot_l = 0
+herbal_tea_cold_s = 0
+herbal_tea_cold_m = 0
+herbal_tea_cold_l = 0
+herbal_tea_shake_s = 0
+herbal_tea_shake_m = 0
+herbal_tea_shake_l = 0
+
+thai_tea_hot_s = 0
+thai_tea_hot_m = 0
+thai_tea_hot_l = 0
+thai_tea_cold_s = 0
+thai_tea_cold_m = 0
+thai_tea_cold_l = 0
+thai_tea_shake_s = 0
+thai_tea_shake_m = 0
+thai_tea_shake_l = 0
+
+bubble_tea_hot_s = 0
+bubble_tea_hot_m = 0
+bubble_tea_hot_l = 0
+bubble_tea_cold_s = 0
+bubble_tea_cold_m = 0
+bubble_tea_cold_l = 0
+bubble_tea_shake_s = 0
+bubble_tea_shake_m = 0
+bubble_tea_shake_l = 0
+
+espresso_hot_s_price = 0
+espresso_hot_m_price = 0
+espresso_hot_l_price = 0
+espresso_cold_s_price = 0
+espresso_cold_m_price = 0
+espresso_cold_l_price = 0
+espresso_shake_s_price = 0
+espresso_shake_m_price = 0
+espresso_shake_l_price = 0
 
 count = 0
 espresso = 0
@@ -89,468 +249,1497 @@ oolong_tea = 0
 chai_tea = 0
 herbal_tea = 0
 thai_tea = 0
-buble_tea = 0
+bubble_tea = 0
+cupcake = 0
+brownie = 0
+macaron = 0
+cookie = 0
+donut = 0
+muffin = 0
+croissant = 0
+
 while True:
     main()
     A = int(input("Choose: "))
     if A == 1:
         main1()
         B = int(input("Choose: "))
-        if B == 1 or 2 or 3:
+        if B == 1:
             main2()
             C = int(input("Choose: "))
             if C == 1:
-                print("Your menu is espresso (S)")
-                D = input("You wanna order: Yes or No : ")
-                if D == "No":
+                print("Your menu is Espresso Hot (S)")
+                qty = int(input("Quantity: "))
+                espresso_hot_s += qty
+                E = input("You wanna order: Yes or No : ")
+                if E == "No":
                     break
-                elif D == "Yes":
-                    espresso = espresso + 1 
-                    print(f"Your Order is espresso: {espresso} cup(s)")
+                elif E == "Yes":
+                    print(f"\nYour Order is Espresso Hot (S): {espresso_hot_s} cup(s)\n")
             elif C == 2:
                 print("Your menu is espresso (M)")
-                D = input("You wanna order: Yes or No : ")
-                if D == "No":
+                qty = int(input("Quantity: "))
+                espresso_hot_m += qty
+                E = input("You wanna order: Yes or No : ")
+                if E == "No":
                     break
-                elif D == "Yes":
-                    espresso = espresso + 1 
-                    print(f"Your Order is espresso: {espresso} cup(s)")
+                elif E == "Yes":
+                    print(f"\nYour Order is Espresso Hot (M): {espresso_hot_m} cup(s)\n")
+            elif C == 3:
+                print("Your menu is Espresso Hot (L)")
+                qty = int(input("Quantity: "))
+                espresso_hot_l = qty1
+                E = input("You wanna order: Yes or No : ")
+                if E == "No":
+                    break
+                elif E == "Yes":
+                    print(f"\nYour Order is Espresso Hot (L): {espresso_hot_l} cup(s)\n")
+        elif B == 2:
+            main2()
+            C = int(input("Choose: "))
+            if C == 1:
+                print("Your menu is Espresso Cold (S)")
+                qty = int(input("Quantity: "))
+                espresso_cold_s += qty
+                E = input("You wanna order: Yes or No : ")
+                if E == "No":
+                    break
+                elif E == "Yes":
+                    print(f"\nYour Order is Espresso Cold (S): {espresso_cold_s} cup(s)\n")
+            elif C == 2:
+                print("Your menu is Espresso Cold (M)")
+                qty = int(input("Quantity: "))
+                espresso_cold_m += qty
+                E = input("You wanna order: Yes or No : ")
+                if E == "No":
+                    break
+                elif E == "Yes":
+                    print(f"\nYour Order is Espresso Cold (M): {espresso_cold_m} cup(s)\n")
             elif C == 3:
                 print("Your menu is espresso (L)")
-                D = input("You wanna order: Yes or No : ")
-                if D == "No":
+                qty = int(input("Quantity: "))
+                espresso_cold_l += qty
+                E = input("You wanna order: Yes or No : ")
+                if E == "No":
                     break
-                elif D == "Yes":
-                    espresso = espresso + 1 
-                    print(f"Your Order is espresso: {espresso} cup(s)")
-    elif A == 2:
-        main1()
-        B = int(input("Choose: "))
-        if B == 1 or 2 or 3:
+                elif E == "Yes": 
+                    print(f"\nYour Order is Espresso Cold (L): {espresso_cold_l} cup(s)\n")
+        elif B == 3:
             main2()
             C = int(input("Choose: "))
             if C == 1:
-                print("Your menu is americano (S)")
-                D = input("You wanna order: Yes or No : ")
-                if D == "No":
+                print("Your menu is Espresso Shake (S)")
+                qty = int(input("Quantity: "))
+                espresso_shake_s += qty
+                E = input("You wanna order: Yes or No : ")
+                if E == "No":
                     break
-                elif D == "Yes":
-                    americano = americano + 1 
-                    print(f"Your Order is americano: {americano} cup(s)")
+                elif E == "Yes":
+                    print(f"\nYour Order is Espresso Shake (S): {espresso_shake_s} cup(s)\n")
+            elif C == 2:
+                print("Your menu is Espresso Shake (M)")
+                qty = int(input("Quantity: "))
+                espresso_shake_m += qty
+                E = input("You wanna order: Yes or No : ")
+                if E == "No":
+                    break
+                elif E == "Yes":
+                    print(f"\nYour Order is Espresso Shake (M): {espresso_shake_m} cup(s)\n")
+            elif C == 3:
+                print("Your menu is Espresso Shake (L)")
+                qty = int(input("Quantity: "))
+                espresso_shake_l += qty
+                E = input("You wanna order: Yes or No : ")
+                if E == "No":
+                    break
+                elif E == "Yes":
+                    print(f"\nYour Order is Espresso Shake (L): {espresso_shake_l} cup(s)\n")
+    if A == 2:
+        main1()
+        B = int(input("Choose: "))
+        if B == 1:
+            main2()
+            C = int(input("Choose: "))
+            if C == 1:
+                print("Your menu is Americano Hot (S)")
+                qty = int(input("Quantity: "))
+                americano_hot_s += qty
+                E = input("You wanna order: Yes or No : ")
+                if E == "No":
+                    break
+                elif E == "Yes":
+                    print(f"\nYour Order is Americano Hot (S): {americano_hot_s} cup(s)\n")
             elif C == 2:
                 print("Your menu is americano (M)")
-                D = input("You wanna order: Yes or No : ")
-                if D == "No":
+                qty = int(input("Quantity: "))
+                americano_hot_m += qty
+                E = input("You wanna order: Yes or No : ")
+                if E == "No":
                     break
-                elif D == "Yes":
-                    americano = americano + 1 
-                    print(f"Your Order is americano: {americano} cup(s)")
+                elif E == "Yes":
+                    print(f"\nYour Order is Americano Hot (M): {americano_hot_m} cup(s)\n")
+            elif C == 3:
+                print("Your menu is Americano Hot (L)")
+                qty = int(input("Quantity: "))
+                americano_hot_l = qty1
+                E = input("You wanna order: Yes or No : ")
+                if E == "No":
+                    break
+                elif E == "Yes":
+                    print(f"\nYour Order is Americano Hot (L): {americano_hot_l} cup(s)\n")
+        elif B == 2:
+            main2()
+            C = int(input("Choose: "))
+            if C == 1:
+                print("Your menu is Americano Cold (S)")
+                qty = int(input("Quantity: "))
+                americano_cold_s += qty
+                E = input("You wanna order: Yes or No : ")
+                if E == "No":
+                    break
+                elif E == "Yes":
+                    print(f"\nYour Order is Americano Cold (S): {americano_cold_s} cup(s)\n")
+            elif C == 2:
+                print("Your menu is Americano Cold (M)")
+                qty = int(input("Quantity: "))
+                americano_cold_m += qty
+                E = input("You wanna order: Yes or No : ")
+                if E == "No":
+                    break
+                elif E == "Yes":
+                    print(f"\nYour Order is Americano Cold (M): {americano_cold_m} cup(s)\n")
             elif C == 3:
                 print("Your menu is americano (L)")
-                D = input("You wanna order: Yes or No : ")
-                if D == "No":
+                qty = int(input("Quantity: "))
+                americano_cold_l += qty
+                E = input("You wanna order: Yes or No : ")
+                if E == "No":
                     break
-                elif D == "Yes":
-                    americano = americano + 1 
-                    print(f"Your Order is americano: {americano} cup(s)")
-    elif A == 3:
-        main1()
-        B = int(input("Choose: "))
-        if B == 1 or 2 or 3:
+                elif E == "Yes": 
+                    print(f"\nYour Order is Americano Cold (L): {americano_cold_l} cup(s)\n")
+        elif B == 3:
             main2()
             C = int(input("Choose: "))
             if C == 1:
-                print("Your menu is latte (S)")
-                D = input("You wanna order: Yes or No : ")
-                if D == "No":
+                print("Your menu is Americano Shake (S)")
+                qty = int(input("Quantity: "))
+                americano_shake_s += qty
+                E = input("You wanna order: Yes or No : ")
+                if E == "No":
                     break
-                elif D == "Yes":
-                    latte = latte + 1 
-                    print(f"Your Order is latte: {latte} cup(s)")
+                elif E == "Yes":
+                    print(f"\nYour Order is Americano Shake (S): {americano_shake_s} cup(s)\n")
+            elif C == 2:
+                print("Your menu is Americano Shake (M)")
+                qty = int(input("Quantity: "))
+                americano_shake_m += qty
+                E = input("You wanna order: Yes or No : ")
+                if E == "No":
+                    break
+                elif E == "Yes":
+                    print(f"\nYour Order is Americano Shake (M): {americano_shake_m} cup(s)\n")
+            elif C == 3:
+                print("Your menu is Americano Shake (L)")
+                qty = int(input("Quantity: "))
+                americano_shake_l += qty
+                E = input("You wanna order: Yes or No : ")
+                if E == "No":
+                    break
+                elif E == "Yes":
+                    print(f"\nYour Order is Americano Shake (L): {americano_shake_l} cup(s)\n")
+    if A == 3:
+        main1()
+        B = int(input("Choose: "))
+        if B == 1:
+            main2()
+            C = int(input("Choose: "))
+            if C == 1:
+                print("Your menu is Latte Hot (S)")
+                qty = int(input("Quantity: "))
+                latte_hot_s += qty
+                E = input("You wanna order: Yes or No : ")
+                if E == "No":
+                    break
+                elif E == "Yes":
+                    print(f"\nYour Order is Latte Hot (S): {latte_hot_s} cup(s)\n")
             elif C == 2:
                 print("Your menu is latte (M)")
-                D = input("You wanna order: Yes or No : ")
-                if D == "No":
+                qty = int(input("Quantity: "))
+                latte_hot_m += qty
+                E = input("You wanna order: Yes or No : ")
+                if E == "No":
                     break
-                elif D == "Yes":
-                    latte = latte + 1 
-                    print(f"Your Order is latte: {espresso} cup(s)")
+                elif E == "Yes":
+                    print(f"\nYour Order is Latte Hot (M): {latte_hot_m} cup(s)\n")
+            elif C == 3:
+                print("Your menu is Latte Hot (L)")
+                qty = int(input("Quantity: "))
+                latte_hot_l = qty1
+                E = input("You wanna order: Yes or No : ")
+                if E == "No":
+                    break
+                elif E == "Yes":
+                    print(f"\nYour Order is Latte Hot (L): {latte_hot_l} cup(s)\n")
+        elif B == 2:
+            main2()
+            C = int(input("Choose: "))
+            if C == 1:
+                print("Your menu is Latte Cold (S)")
+                qty = int(input("Quantity: "))
+                latte_cold_s += qty
+                E = input("You wanna order: Yes or No : ")
+                if E == "No":
+                    break
+                elif E == "Yes":
+                    print(f"\nYour Order is Latte Cold (S): {latte_cold_s} cup(s)\n")
+            elif C == 2:
+                print("Your menu is Latte Cold (M)")
+                qty = int(input("Quantity: "))
+                latte_cold_m += qty
+                E = input("You wanna order: Yes or No : ")
+                if E == "No":
+                    break
+                elif E == "Yes":
+                    print(f"\nYour Order is Latte Cold (M): {latte_cold_m} cup(s)\n")
             elif C == 3:
                 print("Your menu is latte (L)")
-                D = input("You wanna order: Yes or No : ")
-                if D == "No":
+                qty = int(input("Quantity: "))
+                latte_cold_l += qty
+                E = input("You wanna order: Yes or No : ")
+                if E == "No":
                     break
-                elif D == "Yes":
-                    latte = latte + 1 
-                    print(f"Your Order is latte: {latte} cup(s)")
-    elif A == 4:
-        main1()
-        B = int(input("Choose: "))
-        if B == 1 or 2 or 3:
+                elif E == "Yes": 
+                    print(f"\nYour Order is Latte Cold (L): {latte_cold_l} cup(s)\n")
+        elif B == 3:
             main2()
             C = int(input("Choose: "))
             if C == 1:
-                print("Your menu is cappuccino (S)")
-                D = input("You wanna order: Yes or No : ")
-                if D == "No":
+                print("Your menu is Latte Shake (S)")
+                qty = int(input("Quantity: "))
+                latte_shake_s += qty
+                E = input("You wanna order: Yes or No : ")
+                if E == "No":
                     break
-                elif D == "Yes":
-                    cappuccino = cappuccino + 1 
-                    print(f"Your Order is cappuccino: {cappuccino} cup(s)")
+                elif E == "Yes":
+                    print(f"\nYour Order is Latte Shake (S): {latte_shake_s} cup(s)\n")
+            elif C == 2:
+                print("Your menu is Latte Shake (M)")
+                qty = int(input("Quantity: "))
+                latte_shake_m += qty
+                E = input("You wanna order: Yes or No : ")
+                if E == "No":
+                    break
+                elif E == "Yes":
+                    print(f"\nYour Order is Latte Shake (M): {latte_shake_m} cup(s)\n")
+            elif C == 3:
+                print("Your menu is Latte Shake (L)")
+                qty = int(input("Quantity: "))
+                latte_shake_l += qty
+                E = input("You wanna order: Yes or No : ")
+                if E == "No":
+                    break
+                elif E == "Yes":
+                    print(f"\nYour Order is Latte Shake (L): {latte_shake_l} cup(s)\n")
+    if A == 4:
+        main1()
+        B = int(input("Choose: "))
+        if B == 1:
+            main2()
+            C = int(input("Choose: "))
+            if C == 1:
+                print("Your menu is Cappuccino Hot (S)")
+                qty = int(input("Quantity: "))
+                cappuccino_hot_s += qty
+                E = input("You wanna order: Yes or No : ")
+                if E == "No":
+                    break
+                elif E == "Yes":
+                    print(f"\nYour Order is Cappuccino Hot (S): {cappuccino_hot_s} cup(s)\n")
             elif C == 2:
                 print("Your menu is cappuccino (M)")
-                D = input("You wanna order: Yes or No : ")
-                if D == "No":
+                qty = int(input("Quantity: "))
+                cappuccino_hot_m += qty
+                E = input("You wanna order: Yes or No : ")
+                if E == "No":
                     break
-                elif D == "Yes":
-                    cappuccino = cappuccino + 1 
-                    print(f"Your Order is cappuccino: {cappuccino} cup(s)")
+                elif E == "Yes":
+                    print(f"\nYour Order is Cappuccino Hot (M): {cappuccino_hot_m} cup(s)\n")
+            elif C == 3:
+                print("Your menu is Cappuccino Hot (L)")
+                qty = int(input("Quantity: "))
+                cappuccino_hot_l = qty1
+                E = input("You wanna order: Yes or No : ")
+                if E == "No":
+                    break
+                elif E == "Yes":
+                    print(f"\nYour Order is Cappuccino Hot (L): {cappuccino_hot_l} cup(s)\n")
+        elif B == 2:
+            main2()
+            C = int(input("Choose: "))
+            if C == 1:
+                print("Your menu is Cappuccino Cold (S)")
+                qty = int(input("Quantity: "))
+                cappuccino_cold_s += qty
+                E = input("You wanna order: Yes or No : ")
+                if E == "No":
+                    break
+                elif E == "Yes":
+                    print(f"\nYour Order is Cappuccino Cold (S): {cappuccino_cold_s} cup(s)\n")
+            elif C == 2:
+                print("Your menu is Cappuccino Cold (M)")
+                qty = int(input("Quantity: "))
+                cappuccino_cold_m += qty
+                E = input("You wanna order: Yes or No : ")
+                if E == "No":
+                    break
+                elif E == "Yes":
+                    print(f"\nYour Order is Cappuccino Cold (M): {cappuccino_cold_m} cup(s)\n")
             elif C == 3:
                 print("Your menu is cappuccino (L)")
-                D = input("You wanna order: Yes or No : ")
-                if D == "No":
+                qty = int(input("Quantity: "))
+                cappuccino_cold_l += qty
+                E = input("You wanna order: Yes or No : ")
+                if E == "No":
                     break
-                elif D == "Yes":
-                    cappuccino = cappuccino + 1 
-                    print(f"Your Order is cappuccino: {cappuccino} cup(s)")
-    elif A == 5:
-        main1()
-        B = int(input("Choose: "))
-        if B == 1 or 2 or 3:
+                elif E == "Yes": 
+                    print(f"\nYour Order is Cappuccino Cold (L): {cappuccino_cold_l} cup(s)\n")
+        elif B == 3:
             main2()
             C = int(input("Choose: "))
             if C == 1:
-                print("Your menu is chocolate (S)")
-                D = input("You wanna order: Yes or No : ")
-                if D == "No":
+                print("Your menu is Cappuccino Shake (S)")
+                qty = int(input("Quantity: "))
+                cappuccino_shake_s += qty
+                E = input("You wanna order: Yes or No : ")
+                if E == "No":
                     break
-                elif D == "Yes":
-                    chocolate = chocolate + 1 
-                    print(f"Your Order is chocolate: {chocolate} cup(s)")
+                elif E == "Yes":
+                    print(f"\nYour Order is Cappuccino Shake (S): {cappuccino_shake_s} cup(s)\n")
+            elif C == 2:
+                print("Your menu is Cappuccino Shake (M)")
+                qty = int(input("Quantity: "))
+                cappuccino_shake_m += qty
+                E = input("You wanna order: Yes or No : ")
+                if E == "No":
+                    break
+                elif E == "Yes":
+                    print(f"\nYour Order is Cappuccino Shake (M): {cappuccino_shake_m} cup(s)\n")
+            elif C == 3:
+                print("Your menu is Cappuccino Shake (L)")
+                qty = int(input("Quantity: "))
+                cappuccino_shake_l += qty
+                E = input("You wanna order: Yes or No : ")
+                if E == "No":
+                    break
+                elif E == "Yes":
+                    print(f"\nYour Order is Cappuccino Shake (L): {cappuccino_shake_l} cup(s)\n")
+    if A == 5:
+        main1()
+        B = int(input("Choose: "))
+        if B == 1:
+            main2()
+            C = int(input("Choose: "))
+            if C == 1:
+                print("Your menu is Chocolate Hot (S)")
+                qty = int(input("Quantity: "))
+                chocolate_hot_s += qty
+                E = input("You wanna order: Yes or No : ")
+                if E == "No":
+                    break
+                elif E == "Yes":
+                    print(f"\nYour Order is Chocolate Hot (S): {chocolate_hot_s} cup(s)\n")
             elif C == 2:
                 print("Your menu is chocolate (M)")
-                D = input("You wanna order: Yes or No : ")
-                if D == "No":
+                qty = int(input("Quantity: "))
+                chocolate_hot_m += qty
+                E = input("You wanna order: Yes or No : ")
+                if E == "No":
                     break
-                elif D == "Yes":
-                    chocolate = chocolate + 1 
-                    print(f"Your Order is chocolate: {chocolate} cup(s)")
+                elif E == "Yes":
+                    print(f"\nYour Order is Chocolate Hot (M): {chocolate_hot_m} cup(s)\n")
+            elif C == 3:
+                print("Your menu is Chocolate Hot (L)")
+                qty = int(input("Quantity: "))
+                chocolate_hot_l = qty1
+                E = input("You wanna order: Yes or No : ")
+                if E == "No":
+                    break
+                elif E == "Yes":
+                    print(f"\nYour Order is Chocolate Hot (L): {chocolate_hot_l} cup(s)\n")
+        elif B == 2:
+            main2()
+            C = int(input("Choose: "))
+            if C == 1:
+                print("Your menu is Chocolate Cold (S)")
+                qty = int(input("Quantity: "))
+                chocolate_cold_s += qty
+                E = input("You wanna order: Yes or No : ")
+                if E == "No":
+                    break
+                elif E == "Yes":
+                    print(f"\nYour Order is Chocolate Cold (S): {chocolate_cold_s} cup(s)\n")
+            elif C == 2:
+                print("Your menu is Chocolate Cold (M)")
+                qty = int(input("Quantity: "))
+                chocolate_cold_m += qty
+                E = input("You wanna order: Yes or No : ")
+                if E == "No":
+                    break
+                elif E == "Yes":
+                    print(f"\nYour Order is Chocolate Cold (M): {chocolate_cold_m} cup(s)\n")
             elif C == 3:
                 print("Your menu is chocolate (L)")
-                D = input("You wanna order: Yes or No : ")
-                if D == "No":
+                qty = int(input("Quantity: "))
+                chocolate_cold_l += qty
+                E = input("You wanna order: Yes or No : ")
+                if E == "No":
                     break
-                elif D == "Yes":
-                    chocolate = chocolate + 1 
-                    print(f"Your Order is chocolate: {chocolate} cup(s)")
-    elif A == 6:
-        main1()
-        B = int(input("Choose: "))
-        if B == 1 or 2 or 3:
+                elif E == "Yes": 
+                    print(f"\nYour Order is Chocolate Cold (L): {chocolate_cold_l} cup(s)\n")
+        elif B == 3:
             main2()
             C = int(input("Choose: "))
             if C == 1:
-                print("Your menu is frappuccino (S)")
-                D = input("You wanna order: Yes or No : ")
-                if D == "No":
+                print("Your menu is Chocolate Shake (S)")
+                qty = int(input("Quantity: "))
+                chocolate_shake_s += qty
+                E = input("You wanna order: Yes or No : ")
+                if E == "No":
                     break
-                elif D == "Yes":
-                    frappuccino = frappuccino + 1 
-                    print(f"Your Order is frappuccino: {frappuccino} cup(s)")
+                elif E == "Yes":
+                    print(f"\nYour Order is Chocolate Shake (S): {chocolate_shake_s} cup(s)\n")
+            elif C == 2:
+                print("Your menu is Chocolate Shake (M)")
+                qty = int(input("Quantity: "))
+                chocolate_shake_m += qty
+                E = input("You wanna order: Yes or No : ")
+                if E == "No":
+                    break
+                elif E == "Yes":
+                    print(f"\nYour Order is Chocolate Shake (M): {chocolate_shake_m} cup(s)\n")
+            elif C == 3:
+                print("Your menu is Chocolate Shake (L)")
+                qty = int(input("Quantity: "))
+                chocolate_shake_l += qty
+                E = input("You wanna order: Yes or No : ")
+                if E == "No":
+                    break
+                elif E == "Yes":
+                    print(f"\nYour Order is Chocolate Shake (L): {chocolate_shake_l} cup(s)\n")
+    if A == 6:
+        main1()
+        B = int(input("Choose: "))
+        if B == 1:
+            main2()
+            C = int(input("Choose: "))
+            if C == 1:
+                print("Your menu is Frappuccino Hot (S)")
+                qty = int(input("Quantity: "))
+                frappuccino_hot_s += qty
+                E = input("You wanna order: Yes or No : ")
+                if E == "No":
+                    break
+                elif E == "Yes":
+                    print(f"\nYour Order is Frappuccino Hot (S): {frappuccino_hot_s} cup(s)\n")
             elif C == 2:
                 print("Your menu is frappuccino (M)")
-                D = input("You wanna order: Yes or No : ")
-                if D == "No":
+                qty = int(input("Quantity: "))
+                frappuccino_hot_m += qty
+                E = input("You wanna order: Yes or No : ")
+                if E == "No":
                     break
-                elif D == "Yes":
-                    frappuccino = frappuccino + 1 
-                    print(f"Your Order is frappuccino: {frappuccino} cup(s)")
+                elif E == "Yes":
+                    print(f"\nYour Order is Frappuccino Hot (M): {frappuccino_hot_m} cup(s)\n")
+            elif C == 3:
+                print("Your menu is Frappuccino Hot (L)")
+                qty = int(input("Quantity: "))
+                frappuccino_hot_l = qty1
+                E = input("You wanna order: Yes or No : ")
+                if E == "No":
+                    break
+                elif E == "Yes":
+                    print(f"\nYour Order is Frappuccino Hot (L): {frappuccino_hot_l} cup(s)\n")
+        elif B == 2:
+            main2()
+            C = int(input("Choose: "))
+            if C == 1:
+                print("Your menu is Frappuccino Cold (S)")
+                qty = int(input("Quantity: "))
+                frappuccino_cold_s += qty
+                E = input("You wanna order: Yes or No : ")
+                if E == "No":
+                    break
+                elif E == "Yes":
+                    print(f"\nYour Order is Frappuccino Cold (S): {frappuccino_cold_s} cup(s)\n")
+            elif C == 2:
+                print("Your menu is Frappuccino Cold (M)")
+                qty = int(input("Quantity: "))
+                frappuccino_cold_m += qty
+                E = input("You wanna order: Yes or No : ")
+                if E == "No":
+                    break
+                elif E == "Yes":
+                    print(f"\nYour Order is Frappuccino Cold (M): {frappuccino_cold_m} cup(s)\n")
             elif C == 3:
                 print("Your menu is frappuccino (L)")
-                D = input("You wanna order: Yes or No : ")
-                if D == "No":
+                qty = int(input("Quantity: "))
+                frappuccino_cold_l += qty
+                E = input("You wanna order: Yes or No : ")
+                if E == "No":
                     break
-                elif D == "Yes":
-                    frappuccino = frappuccino + 1 
-                    print(f"Your Order is Espresso: {frappuccino} cup(s)")
-    elif A == 7:
-        main1()
-        B = int(input("Choose: "))
-        if B == 1 or 2 or 3:
+                elif E == "Yes": 
+                    print(f"\nYour Order is Frappuccino Cold (L): {frappuccino_cold_l} cup(s)\n")
+        elif B == 3:
             main2()
             C = int(input("Choose: "))
             if C == 1:
-                print("Your menu is mocha (S)")
-                D = input("You wanna order: Yes or No : ")
-                if D == "No":
+                print("Your menu is Frappuccino Shake (S)")
+                qty = int(input("Quantity: "))
+                frappuccino_shake_s += qty
+                E = input("You wanna order: Yes or No : ")
+                if E == "No":
                     break
-                elif D == "Yes":
-                    mocha = mocha + 1 
-                    print(f"Your Order is mocha: {mocha} cup(s)")
+                elif E == "Yes":
+                    print(f"\nYour Order is Frappuccino Shake (S): {frappuccino_shake_s} cup(s)\n")
+            elif C == 2:
+                print("Your menu is Frappuccino Shake (M)")
+                qty = int(input("Quantity: "))
+                frappuccino_shake_m += qty
+                E = input("You wanna order: Yes or No : ")
+                if E == "No":
+                    break
+                elif E == "Yes":
+                    print(f"\nYour Order is Frappuccino Shake (M): {frappuccino_shake_m} cup(s)\n")
+            elif C == 3:
+                print("Your menu is Frappuccino Shake (L)")
+                qty = int(input("Quantity: "))
+                frappuccino_shake_l += qty
+                E = input("You wanna order: Yes or No : ")
+                if E == "No":
+                    break
+                elif E == "Yes":
+                    print(f"\nYour Order is Frappuccino Shake (L): {frappuccino_shake_l} cup(s)\n")
+    if A == 7:
+        main1()
+        B = int(input("Choose: "))
+        if B == 1:
+            main2()
+            C = int(input("Choose: "))
+            if C == 1:
+                print("Your menu is Mocha Hot (S)")
+                qty = int(input("Quantity: "))
+                mocha_hot_s += qty
+                E = input("You wanna order: Yes or No : ")
+                if E == "No":
+                    break
+                elif E == "Yes":
+                    print(f"\nYour Order is Mocha Hot (S): {mocha_hot_s} cup(s)\n")
             elif C == 2:
                 print("Your menu is mocha (M)")
-                D = input("You wanna order: Yes or No : ")
-                if D == "No":
+                qty = int(input("Quantity: "))
+                mocha_hot_m += qty
+                E = input("You wanna order: Yes or No : ")
+                if E == "No":
                     break
-                elif D == "Yes":
-                    mocha = mocha + 1 
-                    print(f"Your Order is mocha: {mocha} cup(s)")
+                elif E == "Yes":
+                    print(f"\nYour Order is Mocha Hot (M): {mocha_hot_m} cup(s)\n")
+            elif C == 3:
+                print("Your menu is Mocha Hot (L)")
+                qty = int(input("Quantity: "))
+                mocha_hot_l = qty1
+                E = input("You wanna order: Yes or No : ")
+                if E == "No":
+                    break
+                elif E == "Yes":
+                    print(f"\nYour Order is Mocha Hot (L): {mocha_hot_l} cup(s)\n")
+        elif B == 2:
+            main2()
+            C = int(input("Choose: "))
+            if C == 1:
+                print("Your menu is Mocha Cold (S)")
+                qty = int(input("Quantity: "))
+                mocha_cold_s += qty
+                E = input("You wanna order: Yes or No : ")
+                if E == "No":
+                    break
+                elif E == "Yes":
+                    print(f"\nYour Order is Mocha Cold (S): {mocha_cold_s} cup(s)\n")
+            elif C == 2:
+                print("Your menu is Mocha Cold (M)")
+                qty = int(input("Quantity: "))
+                mocha_cold_m += qty
+                E = input("You wanna order: Yes or No : ")
+                if E == "No":
+                    break
+                elif E == "Yes":
+                    print(f"\nYour Order is Mocha Cold (M): {mocha_cold_m} cup(s)\n")
             elif C == 3:
                 print("Your menu is mocha (L)")
-                D = input("You wanna order: Yes or No : ")
-                if D == "No":
+                qty = int(input("Quantity: "))
+                mocha_cold_l += qty
+                E = input("You wanna order: Yes or No : ")
+                if E == "No":
                     break
-                elif D == "Yes":
-                    mocha = mocha + 1 
-                    print(f"Your Order is mocha: {mocha} cup(s)")
-    elif A == 8:
-        main1()
-        B = int(input("Choose: "))
-        if B == 1 or 2 or 3:
+                elif E == "Yes": 
+                    print(f"\nYour Order is Mocha Cold (L): {mocha_cold_l} cup(s)\n")
+        elif B == 3:
             main2()
             C = int(input("Choose: "))
             if C == 1:
-                print("Your menu is coffee (S)")
-                D = input("You wanna order: Yes or No : ")
-                if D == "No":
+                print("Your menu is Mocha Shake (S)")
+                qty = int(input("Quantity: "))
+                mocha_shake_s += qty
+                E = input("You wanna order: Yes or No : ")
+                if E == "No":
                     break
-                elif D == "Yes":
-                    coffee = coffee + 1 
-                    print(f"Your Order is coffee: {coffee} cup(s)")
+                elif E == "Yes":
+                    print(f"\nYour Order is Mocha Shake (S): {mocha_shake_s} cup(s)\n")
+            elif C == 2:
+                print("Your menu is Mocha Shake (M)")
+                qty = int(input("Quantity: "))
+                mocha_shake_m += qty
+                E = input("You wanna order: Yes or No : ")
+                if E == "No":
+                    break
+                elif E == "Yes":
+                    print(f"\nYour Order is Mocha Shake (M): {mocha_shake_m} cup(s)\n")
+            elif C == 3:
+                print("Your menu is Mocha Shake (L)")
+                qty = int(input("Quantity: "))
+                mocha_shake_l += qty
+                E = input("You wanna order: Yes or No : ")
+                if E == "No":
+                    break
+                elif E == "Yes":
+                    print(f"\nYour Order is Mocha Shake (L): {mocha_shake_l} cup(s)\n")
+    if A == 8:
+        main1()
+        B = int(input("Choose: "))
+        if B == 1:
+            main2()
+            C = int(input("Choose: "))
+            if C == 1:
+                print("Your menu is Coffee Hot (S)")
+                qty = int(input("Quantity: "))
+                coffee_hot_s += qty
+                E = input("You wanna order: Yes or No : ")
+                if E == "No":
+                    break
+                elif E == "Yes":
+                    print(f"\nYour Order is Coffee Hot (S): {coffee_hot_s} cup(s)\n")
             elif C == 2:
                 print("Your menu is coffee (M)")
-                D = input("You wanna order: Yes or No : ")
-                if D == "No":
+                qty = int(input("Quantity: "))
+                coffee_hot_m += qty
+                E = input("You wanna order: Yes or No : ")
+                if E == "No":
                     break
-                elif D == "Yes":
-                    coffee = coffee + 1 
-                    print(f"Your Order is coffee: {coffee} cup(s)")
+                elif E == "Yes":
+                    print(f"\nYour Order is Coffee Hot (M): {coffee_hot_m} cup(s)\n")
+            elif C == 3:
+                print("Your menu is Coffee Hot (L)")
+                qty = int(input("Quantity: "))
+                coffee_hot_l = qty1
+                E = input("You wanna order: Yes or No : ")
+                if E == "No":
+                    break
+                elif E == "Yes":
+                    print(f"\nYour Order is Coffee Hot (L): {coffee_hot_l} cup(s)\n")
+        elif B == 2:
+            main2()
+            C = int(input("Choose: "))
+            if C == 1:
+                print("Your menu is Coffee Cold (S)")
+                qty = int(input("Quantity: "))
+                coffee_cold_s += qty
+                E = input("You wanna order: Yes or No : ")
+                if E == "No":
+                    break
+                elif E == "Yes":
+                    print(f"\nYour Order is Coffee Cold (S): {coffee_cold_s} cup(s)\n")
+            elif C == 2:
+                print("Your menu is Coffee Cold (M)")
+                qty = int(input("Quantity: "))
+                coffee_cold_m += qty
+                E = input("You wanna order: Yes or No : ")
+                if E == "No":
+                    break
+                elif E == "Yes":
+                    print(f"\nYour Order is Coffee Cold (M): {coffee_cold_m} cup(s)\n")
             elif C == 3:
                 print("Your menu is coffee (L)")
-                D = input("You wanna order: Yes or No : ")
-                if D == "No":
+                qty = int(input("Quantity: "))
+                coffee_cold_l += qty
+                E = input("You wanna order: Yes or No : ")
+                if E == "No":
                     break
-                elif D == "Yes":
-                    coffee = coffee + 1 
-                    print(f"Your Order is coffee: {coffee} cup(s)")
-    elif A == 9:
-        main1()
-        B = int(input("Choose: "))
-        if B == 1 or 2 or 3:
+                elif E == "Yes": 
+                    print(f"\nYour Order is Coffee Cold (L): {coffee_cold_l} cup(s)\n")
+        elif B == 3:
             main2()
             C = int(input("Choose: "))
             if C == 1:
-                print("Your menu is black_tea (S)")
-                D = input("You wanna order: Yes or No : ")
-                if D == "No":
+                print("Your menu is Coffee Shake (S)")
+                qty = int(input("Quantity: "))
+                coffee_shake_s += qty
+                E = input("You wanna order: Yes or No : ")
+                if E == "No":
                     break
-                elif D == "Yes":
-                    black_tea = black_tea + 1 
-                    print(f"Your Order is black_tea: {black_tea} cup(s)")
+                elif E == "Yes":
+                    print(f"\nYour Order is Coffee Shake (S): {coffee_shake_s} cup(s)\n")
+            elif C == 2:
+                print("Your menu is Coffee Shake (M)")
+                qty = int(input("Quantity: "))
+                coffee_shake_m += qty
+                E = input("You wanna order: Yes or No : ")
+                if E == "No":
+                    break
+                elif E == "Yes":
+                    print(f"\nYour Order is Coffee Shake (M): {coffee_shake_m} cup(s)\n")
+            elif C == 3:
+                print("Your menu is Coffee Shake (L)")
+                qty = int(input("Quantity: "))
+                coffee_shake_l += qty
+                E = input("You wanna order: Yes or No : ")
+                if E == "No":
+                    break
+                elif E == "Yes":
+                    print(f"\nYour Order is Coffee Shake (L): {coffee_shake_l} cup(s)\n")
+    if A == 9:
+        main1()
+        B = int(input("Choose: "))
+        if B == 1:
+            main2()
+            C = int(input("Choose: "))
+            if C == 1:
+                print("Your menu is Black_tea Hot (S)")
+                qty = int(input("Quantity: "))
+                black_tea_hot_s += qty
+                E = input("You wanna order: Yes or No : ")
+                if E == "No":
+                    break
+                elif E == "Yes":
+                    print(f"\nYour Order is Black_tea Hot (S): {black_tea_hot_s} cup(s)\n")
             elif C == 2:
                 print("Your menu is black_tea (M)")
-                D = input("You wanna order: Yes or No : ")
-                if D == "No":
+                qty = int(input("Quantity: "))
+                black_tea_hot_m += qty
+                E = input("You wanna order: Yes or No : ")
+                if E == "No":
                     break
-                elif D == "Yes":
-                    black_tea = black_tea + 1 
-                    print(f"Your Order is black_tea: {black_tea} cup(s)")
+                elif E == "Yes":
+                    print(f"\nYour Order is Black_tea Hot (M): {black_tea_hot_m} cup(s)\n")
+            elif C == 3:
+                print("Your menu is Black_tea Hot (L)")
+                qty = int(input("Quantity: "))
+                black_tea_hot_l = qty1
+                E = input("You wanna order: Yes or No : ")
+                if E == "No":
+                    break
+                elif E == "Yes":
+                    print(f"\nYour Order is Black_tea Hot (L): {black_tea_hot_l} cup(s)\n")
+        elif B == 2:
+            main2()
+            C = int(input("Choose: "))
+            if C == 1:
+                print("Your menu is Black_tea Cold (S)")
+                qty = int(input("Quantity: "))
+                black_tea_cold_s += qty
+                E = input("You wanna order: Yes or No : ")
+                if E == "No":
+                    break
+                elif E == "Yes":
+                    print(f"\nYour Order is Black_tea Cold (S): {black_tea_cold_s} cup(s)\n")
+            elif C == 2:
+                print("Your menu is Black_tea Cold (M)")
+                qty = int(input("Quantity: "))
+                black_tea_cold_m += qty
+                E = input("You wanna order: Yes or No : ")
+                if E == "No":
+                    break
+                elif E == "Yes":
+                    print(f"\nYour Order is Black_tea Cold (M): {black_tea_cold_m} cup(s)\n")
             elif C == 3:
                 print("Your menu is black_tea (L)")
-                D = input("You wanna order: Yes or No : ")
-                if D == "No":
+                qty = int(input("Quantity: "))
+                black_tea_cold_l += qty
+                E = input("You wanna order: Yes or No : ")
+                if E == "No":
                     break
-                elif D == "Yes":
-                    black_tea = black_tea + 1 
-                    print(f"Your Order is black_tea: {black_tea} cup(s)")
-    elif A == 10:
-        main1()
-        B = int(input("Choose: "))
-        if B == 1 or 2 or 3:
+                elif E == "Yes": 
+                    print(f"\nYour Order is Black_tea Cold (L): {black_tea_cold_l} cup(s)\n")
+        elif B == 3:
             main2()
             C = int(input("Choose: "))
             if C == 1:
-                print("Your menu is green_tea (S)")
-                D = input("You wanna order: Yes or No : ")
-                if D == "No":
+                print("Your menu is Black_tea Shake (S)")
+                qty = int(input("Quantity: "))
+                black_tea_shake_s += qty
+                E = input("You wanna order: Yes or No : ")
+                if E == "No":
                     break
-                elif D == "Yes":
-                    green_tea = green_tea + 1 
-                    print(f"Your Order is green_tea: {green_tea} cup(s)")
+                elif E == "Yes":
+                    print(f"\nYour Order is Black_tea Shake (S): {black_tea_shake_s} cup(s)\n")
+            elif C == 2:
+                print("Your menu is Black_tea Shake (M)")
+                qty = int(input("Quantity: "))
+                black_tea_shake_m += qty
+                E = input("You wanna order: Yes or No : ")
+                if E == "No":
+                    break
+                elif E == "Yes":
+                    print(f"\nYour Order is Black_tea Shake (M): {black_tea_shake_m} cup(s)\n")
+            elif C == 3:
+                print("Your menu is Black_tea Shake (L)")
+                qty = int(input("Quantity: "))
+                black_tea_shake_l += qty
+                E = input("You wanna order: Yes or No : ")
+                if E == "No":
+                    break
+                elif E == "Yes":
+                    print(f"\nYour Order is Black_tea Shake (L): {black_tea_shake_l} cup(s)\n")
+    if A == 10:
+        main1()
+        B = int(input("Choose: "))
+        if B == 1:
+            main2()
+            C = int(input("Choose: "))
+            if C == 1:
+                print("Your menu is Green_tea Hot (S)")
+                qty = int(input("Quantity: "))
+                green_tea_hot_s += qty
+                E = input("You wanna order: Yes or No : ")
+                if E == "No":
+                    break
+                elif E == "Yes":
+                    print(f"\nYour Order is Green_tea Hot (S): {green_tea_hot_s} cup(s)\n")
             elif C == 2:
                 print("Your menu is green_tea (M)")
-                D = input("You wanna order: Yes or No : ")
-                if D == "No":
+                qty = int(input("Quantity: "))
+                green_tea_hot_m += qty
+                E = input("You wanna order: Yes or No : ")
+                if E == "No":
                     break
-                elif D == "Yes":
-                    green_tea = green_tea + 1 
-                    print(f"Your Order is green_tea: {green_tea} cup(s)")
+                elif E == "Yes":
+                    print(f"\nYour Order is Green_tea Hot (M): {green_tea_hot_m} cup(s)\n")
+            elif C == 3:
+                print("Your menu is Green_tea Hot (L)")
+                qty = int(input("Quantity: "))
+                green_tea_hot_l = qty1
+                E = input("You wanna order: Yes or No : ")
+                if E == "No":
+                    break
+                elif E == "Yes":
+                    print(f"\nYour Order is Green_tea Hot (L): {green_tea_hot_l} cup(s)\n")
+        elif B == 2:
+            main2()
+            C = int(input("Choose: "))
+            if C == 1:
+                print("Your menu is Green_tea Cold (S)")
+                qty = int(input("Quantity: "))
+                green_tea_cold_s += qty
+                E = input("You wanna order: Yes or No : ")
+                if E == "No":
+                    break
+                elif E == "Yes":
+                    print(f"\nYour Order is Green_tea Cold (S): {green_tea_cold_s} cup(s)\n")
+            elif C == 2:
+                print("Your menu is Green_tea Cold (M)")
+                qty = int(input("Quantity: "))
+                green_tea_cold_m += qty
+                E = input("You wanna order: Yes or No : ")
+                if E == "No":
+                    break
+                elif E == "Yes":
+                    print(f"\nYour Order is Green_tea Cold (M): {green_tea_cold_m} cup(s)\n")
             elif C == 3:
                 print("Your menu is green_tea (L)")
-                D = input("You wanna order: Yes or No : ")
-                if D == "No":
+                qty = int(input("Quantity: "))
+                green_tea_cold_l += qty
+                E = input("You wanna order: Yes or No : ")
+                if E == "No":
                     break
-                elif D == "Yes":
-                    green_tea = green_tea + 1 
-                    print(f"Your Order is green_tea: {green_tea} cup(s)")
-    elif A == 11:
-        main1()
-        B = int(input("Choose: "))
-        if B == 1 or 2 or 3:
+                elif E == "Yes": 
+                    print(f"\nYour Order is Green_tea Cold (L): {green_tea_cold_l} cup(s)\n")
+        elif B == 3:
             main2()
             C = int(input("Choose: "))
             if C == 1:
-                print("Your menu is oolong_tea (S)")
-                D = input("You wanna order: Yes or No : ")
-                if D == "No":
+                print("Your menu is Green_tea Shake (S)")
+                qty = int(input("Quantity: "))
+                green_tea_shake_s += qty
+                E = input("You wanna order: Yes or No : ")
+                if E == "No":
                     break
-                elif D == "Yes":
-                    oolong_tea = oolong_tea + 1 
-                    print(f"Your Order is oolong_tea: {oolong_tea} cup(s)")
+                elif E == "Yes":
+                    print(f"\nYour Order is Green_tea Shake (S): {green_tea_shake_s} cup(s)\n")
+            elif C == 2:
+                print("Your menu is Green_tea Shake (M)")
+                qty = int(input("Quantity: "))
+                green_tea_shake_m += qty
+                E = input("You wanna order: Yes or No : ")
+                if E == "No":
+                    break
+                elif E == "Yes":
+                    print(f"\nYour Order is Green_tea Shake (M): {green_tea_shake_m} cup(s)\n")
+            elif C == 3:
+                print("Your menu is Green_tea Shake (L)")
+                qty = int(input("Quantity: "))
+                green_tea_shake_l += qty
+                E = input("You wanna order: Yes or No : ")
+                if E == "No":
+                    break
+                elif E == "Yes":
+                    print(f"\nYour Order is Green_tea Shake (L): {green_tea_shake_l} cup(s)\n")
+    if A == 11:
+        main1()
+        B = int(input("Choose: "))
+        if B == 1:
+            main2()
+            C = int(input("Choose: "))
+            if C == 1:
+                print("Your menu is Oolong_tea Hot (S)")
+                qty = int(input("Quantity: "))
+                oolong_tea_hot_s += qty
+                E = input("You wanna order: Yes or No : ")
+                if E == "No":
+                    break
+                elif E == "Yes":
+                    print(f"\nYour Order is Oolong_tea Hot (S): {oolong_tea_hot_s} cup(s)\n")
             elif C == 2:
                 print("Your menu is oolong_tea (M)")
-                D = input("You wanna order: Yes or No : ")
-                if D == "No":
+                qty = int(input("Quantity: "))
+                oolong_tea_hot_m += qty
+                E = input("You wanna order: Yes or No : ")
+                if E == "No":
                     break
-                elif D == "Yes":
-                    oolong_tea = oolong_tea + 1 
-                    print(f"Your Order is oolong_tea: {oolong_tea} cup(s)")
+                elif E == "Yes":
+                    print(f"\nYour Order is Oolong_tea Hot (M): {oolong_tea_hot_m} cup(s)\n")
+            elif C == 3:
+                print("Your menu is Oolong_tea Hot (L)")
+                qty = int(input("Quantity: "))
+                oolong_tea_hot_l = qty1
+                E = input("You wanna order: Yes or No : ")
+                if E == "No":
+                    break
+                elif E == "Yes":
+                    print(f"\nYour Order is Oolong_tea Hot (L): {oolong_tea_hot_l} cup(s)\n")
+        elif B == 2:
+            main2()
+            C = int(input("Choose: "))
+            if C == 1:
+                print("Your menu is Oolong_tea Cold (S)")
+                qty = int(input("Quantity: "))
+                oolong_tea_cold_s += qty
+                E = input("You wanna order: Yes or No : ")
+                if E == "No":
+                    break
+                elif E == "Yes":
+                    print(f"\nYour Order is Oolong_tea Cold (S): {oolong_tea_cold_s} cup(s)\n")
+            elif C == 2:
+                print("Your menu is Oolong_tea Cold (M)")
+                qty = int(input("Quantity: "))
+                oolong_tea_cold_m += qty
+                E = input("You wanna order: Yes or No : ")
+                if E == "No":
+                    break
+                elif E == "Yes":
+                    print(f"\nYour Order is Oolong_tea Cold (M): {oolong_tea_cold_m} cup(s)\n")
             elif C == 3:
                 print("Your menu is oolong_tea (L)")
-                D = input("You wanna order: Yes or No : ")
-                if D == "No":
+                qty = int(input("Quantity: "))
+                oolong_tea_cold_l += qty
+                E = input("You wanna order: Yes or No : ")
+                if E == "No":
                     break
-                elif D == "Yes":
-                    oolong_tea = oolong_tea + 1 
-                    print(f"Your Order is oolong_tea: {oolong_tea} cup(s)")
-    elif A == 12:
-        main1()
-        B = int(input("Choose: "))
-        if B == 1 or 2 or 3:
+                elif E == "Yes": 
+                    print(f"\nYour Order is Oolong_tea Cold (L): {oolong_tea_cold_l} cup(s)\n")
+        elif B == 3:
             main2()
             C = int(input("Choose: "))
             if C == 1:
-                print("Your menu is chai_tea (S)")
-                D = input("You wanna order: Yes or No : ")
-                if D == "No":
+                print("Your menu is Oolong_tea Shake (S)")
+                qty = int(input("Quantity: "))
+                oolong_tea_shake_s += qty
+                E = input("You wanna order: Yes or No : ")
+                if E == "No":
                     break
-                elif D == "Yes":
-                    chai_tea = chai_tea + 1 
-                    print(f"Your Order is chai_tea: {chai_tea} cup(s)")
+                elif E == "Yes":
+                    print(f"\nYour Order is Oolong_tea Shake (S): {oolong_tea_shake_s} cup(s)\n")
+            elif C == 2:
+                print("Your menu is Oolong_tea Shake (M)")
+                qty = int(input("Quantity: "))
+                oolong_tea_shake_m += qty
+                E = input("You wanna order: Yes or No : ")
+                if E == "No":
+                    break
+                elif E == "Yes":
+                    print(f"\nYour Order is Oolong_tea Shake (M): {oolong_tea_shake_m} cup(s)\n")
+            elif C == 3:
+                print("Your menu is Oolong_tea Shake (L)")
+                qty = int(input("Quantity: "))
+                oolong_tea_shake_l += qty
+                E = input("You wanna order: Yes or No : ")
+                if E == "No":
+                    break
+                elif E == "Yes":
+                    print(f"\nYour Order is Oolong_tea Shake (L): {oolong_tea_shake_l} cup(s)\n")
+    if A == 12:
+        main1()
+        B = int(input("Choose: "))
+        if B == 1:
+            main2()
+            C = int(input("Choose: "))
+            if C == 1:
+                print("Your menu is Chai_tea Hot (S)")
+                qty = int(input("Quantity: "))
+                chai_tea_hot_s += qty
+                E = input("You wanna order: Yes or No : ")
+                if E == "No":
+                    break
+                elif E == "Yes":
+                    print(f"\nYour Order is Chai_tea Hot (S): {chai_tea_hot_s} cup(s)\n")
             elif C == 2:
                 print("Your menu is chai_tea (M)")
-                D = input("You wanna order: Yes or No : ")
-                if D == "No":
+                qty = int(input("Quantity: "))
+                chai_tea_hot_m += qty
+                E = input("You wanna order: Yes or No : ")
+                if E == "No":
                     break
-                elif D == "Yes":
-                    chai_tea = chai_tea + 1 
-                    print(f"Your Order is chai_tea: {chai_tea} cup(s)")
+                elif E == "Yes":
+                    print(f"\nYour Order is Chai_tea Hot (M): {chai_tea_hot_m} cup(s)\n")
+            elif C == 3:
+                print("Your menu is Chai_tea Hot (L)")
+                qty = int(input("Quantity: "))
+                chai_tea_hot_l = qty1
+                E = input("You wanna order: Yes or No : ")
+                if E == "No":
+                    break
+                elif E == "Yes":
+                    print(f"\nYour Order is Chai_tea Hot (L): {chai_tea_hot_l} cup(s)\n")
+        elif B == 2:
+            main2()
+            C = int(input("Choose: "))
+            if C == 1:
+                print("Your menu is Chai_tea Cold (S)")
+                qty = int(input("Quantity: "))
+                chai_tea_cold_s += qty
+                E = input("You wanna order: Yes or No : ")
+                if E == "No":
+                    break
+                elif E == "Yes":
+                    print(f"\nYour Order is Chai_tea Cold (S): {chai_tea_cold_s} cup(s)\n")
+            elif C == 2:
+                print("Your menu is Chai_tea Cold (M)")
+                qty = int(input("Quantity: "))
+                chai_tea_cold_m += qty
+                E = input("You wanna order: Yes or No : ")
+                if E == "No":
+                    break
+                elif E == "Yes":
+                    print(f"\nYour Order is Chai_tea Cold (M): {chai_tea_cold_m} cup(s)\n")
             elif C == 3:
                 print("Your menu is chai_tea (L)")
-                D = input("You wanna order: Yes or No : ")
-                if D == "No":
+                qty = int(input("Quantity: "))
+                chai_tea_cold_l += qty
+                E = input("You wanna order: Yes or No : ")
+                if E == "No":
                     break
-                elif D == "Yes":
-                    chai_tea = chai_tea + 1 
-                    print(f"Your Order is chai_tea: {chai_tea} cup(s)")
-    elif A == 13:
-        main1()
-        B = int(input("Choose: "))
-        if B == 1 or 2 or 3:
+                elif E == "Yes": 
+                    print(f"\nYour Order is Chai_tea Cold (L): {chai_tea_cold_l} cup(s)\n")
+        elif B == 3:
             main2()
             C = int(input("Choose: "))
             if C == 1:
-                print("Your menu is herbal_tea (S)")
-                D = input("You wanna order: Yes or No : ")
-                if D == "No":
+                print("Your menu is Chai_tea Shake (S)")
+                qty = int(input("Quantity: "))
+                chai_tea_shake_s += qty
+                E = input("You wanna order: Yes or No : ")
+                if E == "No":
                     break
-                elif D == "Yes":
-                    herbal_tea = herbal_tea + 1 
-                    print(f"Your Order is herbal_tea: {herbal_tea} cup(s)")
+                elif E == "Yes":
+                    print(f"\nYour Order is Chai_tea Shake (S): {chai_tea_shake_s} cup(s)\n")
+            elif C == 2:
+                print("Your menu is Chai_tea Shake (M)")
+                qty = int(input("Quantity: "))
+                chai_tea_shake_m += qty
+                E = input("You wanna order: Yes or No : ")
+                if E == "No":
+                    break
+                elif E == "Yes":
+                    print(f"\nYour Order is Chai_tea Shake (M): {chai_tea_shake_m} cup(s)\n")
+            elif C == 3:
+                print("Your menu is Chai_tea Shake (L)")
+                qty = int(input("Quantity: "))
+                chai_tea_shake_l += qty
+                E = input("You wanna order: Yes or No : ")
+                if E == "No":
+                    break
+                elif E == "Yes":
+                    print(f"\nYour Order is Chai_tea Shake (L): {chai_tea_shake_l} cup(s)\n")
+    if A == 13:
+        main1()
+        B = int(input("Choose: "))
+        if B == 1:
+            main2()
+            C = int(input("Choose: "))
+            if C == 1:
+                print("Your menu is Herbal_tea Hot (S)")
+                qty = int(input("Quantity: "))
+                herbal_tea_hot_s += qty
+                E = input("You wanna order: Yes or No : ")
+                if E == "No":
+                    break
+                elif E == "Yes":
+                    print(f"\nYour Order is Herbal_tea Hot (S): {herbal_tea_hot_s} cup(s)\n")
             elif C == 2:
                 print("Your menu is herbal_tea (M)")
-                D = input("You wanna order: Yes or No : ")
-                if D == "No":
+                qty = int(input("Quantity: "))
+                herbal_tea_hot_m += qty
+                E = input("You wanna order: Yes or No : ")
+                if E == "No":
                     break
-                elif D == "Yes":
-                    herbal_tea = herbal_tea + 1 
-                    print(f"Your Order is herbal_tea: {herbal_tea} cup(s)")
+                elif E == "Yes":
+                    print(f"\nYour Order is Herbal_tea Hot (M): {herbal_tea_hot_m} cup(s)\n")
+            elif C == 3:
+                print("Your menu is Herbal_tea Hot (L)")
+                qty = int(input("Quantity: "))
+                herbal_tea_hot_l = qty1
+                E = input("You wanna order: Yes or No : ")
+                if E == "No":
+                    break
+                elif E == "Yes":
+                    print(f"\nYour Order is Herbal_tea Hot (L): {herbal_tea_hot_l} cup(s)\n")
+        elif B == 2:
+            main2()
+            C = int(input("Choose: "))
+            if C == 1:
+                print("Your menu is Herbal_tea Cold (S)")
+                qty = int(input("Quantity: "))
+                herbal_tea_cold_s += qty
+                E = input("You wanna order: Yes or No : ")
+                if E == "No":
+                    break
+                elif E == "Yes":
+                    print(f"\nYour Order is Herbal_tea Cold (S): {herbal_tea_cold_s} cup(s)\n")
+            elif C == 2:
+                print("Your menu is Herbal_tea Cold (M)")
+                qty = int(input("Quantity: "))
+                herbal_tea_cold_m += qty
+                E = input("You wanna order: Yes or No : ")
+                if E == "No":
+                    break
+                elif E == "Yes":
+                    print(f"\nYour Order is Herbal_tea Cold (M): {herbal_tea_cold_m} cup(s)\n")
             elif C == 3:
                 print("Your menu is herbal_tea (L)")
-                D = input("You wanna order: Yes or No : ")
-                if D == "No":
+                qty = int(input("Quantity: "))
+                herbal_tea_cold_l += qty
+                E = input("You wanna order: Yes or No : ")
+                if E == "No":
                     break
-                elif D == "Yes":
-                    herbal_tea = herbal_tea + 1 
-                    print(f"Your Order is herbal_tea: {herbal_tea} cup(s)")
-    elif A == 14:
-        main1()
-        B = int(input("Choose: "))
-        if B == 1 or 2 or 3:
+                elif E == "Yes": 
+                    print(f"\nYour Order is Herbal_tea Cold (L): {herbal_tea_cold_l} cup(s)\n")
+        elif B == 3:
             main2()
             C = int(input("Choose: "))
             if C == 1:
-                print("Your menu is thai_tea (S)")
-                D = input("You wanna order: Yes or No : ")
-                if D == "No":
+                print("Your menu is Herbal_tea Shake (S)")
+                qty = int(input("Quantity: "))
+                herbal_tea_shake_s += qty
+                E = input("You wanna order: Yes or No : ")
+                if E == "No":
                     break
-                elif D == "Yes":
-                    thai_tea = thai_tea + 1 
-                    print(f"Your Order is thai_tea: {thai_tea} cup(s)")
+                elif E == "Yes":
+                    print(f"\nYour Order is Herbal_tea Shake (S): {herbal_tea_shake_s} cup(s)\n")
+            elif C == 2:
+                print("Your menu is Herbal_tea Shake (M)")
+                qty = int(input("Quantity: "))
+                herbal_tea_shake_m += qty
+                E = input("You wanna order: Yes or No : ")
+                if E == "No":
+                    break
+                elif E == "Yes":
+                    print(f"\nYour Order is Herbal_tea Shake (M): {herbal_tea_shake_m} cup(s)\n")
+            elif C == 3:
+                print("Your menu is Herbal_tea Shake (L)")
+                qty = int(input("Quantity: "))
+                herbal_tea_shake_l += qty
+                E = input("You wanna order: Yes or No : ")
+                if E == "No":
+                    break
+                elif E == "Yes":
+                    print(f"\nYour Order is Herbal_tea Shake (L): {herbal_tea_shake_l} cup(s)\n")
+    if A == 14:
+        main1()
+        B = int(input("Choose: "))
+        if B == 1:
+            main2()
+            C = int(input("Choose: "))
+            if C == 1:
+                print("Your menu is Thai_tea Hot (S)")
+                qty = int(input("Quantity: "))
+                thai_tea_hot_s += qty
+                E = input("You wanna order: Yes or No : ")
+                if E == "No":
+                    break
+                elif E == "Yes":
+                    print(f"\nYour Order is Thai_tea Hot (S): {thai_tea_hot_s} cup(s)\n")
             elif C == 2:
                 print("Your menu is thai_tea (M)")
-                D = input("You wanna order: Yes or No : ")
-                if D == "No":
+                qty = int(input("Quantity: "))
+                thai_tea_hot_m += qty
+                E = input("You wanna order: Yes or No : ")
+                if E == "No":
                     break
-                elif D == "Yes":
-                    thai_tea = thai_tea + 1 
-                    print(f"Your Order is thai_tea: {thai_tea} cup(s)")
+                elif E == "Yes":
+                    print(f"\nYour Order is Thai_tea Hot (M): {thai_tea_hot_m} cup(s)\n")
             elif C == 3:
-                print("Your menu is thai_tea (L)")
-                D = input("You wanna order: Yes or No : ")
-                if D == "No":
+                print("Your menu is Thai_tea Hot (L)")
+                qty = int(input("Quantity: "))
+                thai_tea_hot_l = qty1
+                E = input("You wanna order: Yes or No : ")
+                if E == "No":
                     break
-                elif D == "Yes":
-                    thai_tea = thai_tea + 1 
-                    print(f"Your Order is thai_tea: {thai_tea} cup(s)")
-    elif A == 15:
-        main1()
-        B = int(input("Choose: "))
-        if B == 1 or 2 or 3:
+                elif E == "Yes":
+                    print(f"\nYour Order is Thai_tea Hot (L): {thai_tea_hot_l} cup(s)\n")
+        elif B == 2:
             main2()
             C = int(input("Choose: "))
             if C == 1:
-                print("Your menu is buble_tea (S)")
-                D = input("You wanna order: Yes or No : ")
-                if D == "No":
+                print("Your menu is Thai_tea Cold (S)")
+                qty = int(input("Quantity: "))
+                thai_tea_cold_s += qty
+                E = input("You wanna order: Yes or No : ")
+                if E == "No":
                     break
-                elif D == "Yes":
-                    buble_tea = buble_tea + 1 
-                    print(f"Your Order is buble_tea: {buble_tea} cup(s)")
+                elif E == "Yes":
+                    print(f"\nYour Order is Thai_tea Cold (S): {thai_tea_cold_s} cup(s)\n")
             elif C == 2:
-                print("Your menu is buble_tea (M)")
-                D = input("You wanna order: Yes or No : ")
-                if D == "No":
+                print("Your menu is Thai_tea Cold (M)")
+                qty = int(input("Quantity: "))
+                thai_tea_cold_m += qty
+                E = input("You wanna order: Yes or No : ")
+                if E == "No":
                     break
-                elif D == "Yes":
-                    buble_tea = buble_tea + 1 
-                    print(f"Your Order is buble_tea: {buble_tea} cup(s)")
+                elif E == "Yes":
+                    print(f"\nYour Order is Thai_tea Cold (M): {thai_tea_cold_m} cup(s)\n")
             elif C == 3:
-                print("Your menu is buble_tea (L)")
-                D = input("You wanna order: Yes or No : ")
-                if D == "No":
+                print("Your menu is thai_tea (L)")
+                qty = int(input("Quantity: "))
+                thai_tea_cold_l += qty
+                E = input("You wanna order: Yes or No : ")
+                if E == "No":
                     break
-                elif D == "Yes":
-                    buble_tea = buble_tea + 1 
-                    print(f"Your Order is buble_tea: {buble_tea} cup(s)")
-    elif A == 16:
-        print("Your menu is ")
-        D = input("You wanna order: Yes or No : ")
-        if D == "ํYes":
-            Cupcake = Cupcake + 1 
-            print(f"Your Order is buble_tea: {Cupcake} cup(s)")
-        elif D == "No":
-            break           
-    else:
-        print("Invalid input. Please choose again.")
+                elif E == "Yes": 
+                    print(f"\nYour Order is Thai_tea Cold (L): {thai_tea_cold_l} cup(s)\n")
+        elif B == 3:
+            main2()
+            C = int(input("Choose: "))
+            if C == 1:
+                print("Your menu is Thai_tea Shake (S)")
+                qty = int(input("Quantity: "))
+                thai_tea_shake_s += qty
+                E = input("You wanna order: Yes or No : ")
+                if E == "No":
+                    break
+                elif E == "Yes":
+                    print(f"\nYour Order is Thai_tea Shake (S): {thai_tea_shake_s} cup(s)\n")
+            elif C == 2:
+                print("Your menu is Thai_tea Shake (M)")
+                qty = int(input("Quantity: "))
+                thai_tea_shake_m += qty
+                E = input("You wanna order: Yes or No : ")
+                if E == "No":
+                    break
+                elif E == "Yes":
+                    print(f"\nYour Order is Thai_tea Shake (M): {thai_tea_shake_m} cup(s)\n")
+            elif C == 3:
+                print("Your menu is Thai_tea Shake (L)")
+                qty = int(input("Quantity: "))
+                thai_tea_shake_l += qty
+                E = input("You wanna order: Yes or No : ")
+                if E == "No":
+                    break
+                elif E == "Yes":
+                    print(f"\nYour Order is Thai_tea Shake (L): {thai_tea_shake_l} cup(s)\n")
+    if A == 15:
+        main1()
+        B = int(input("Choose: "))
+        if B == 1:
+            main2()
+            C = int(input("Choose: "))
+            if C == 1:
+                print("Your menu is Bubble_tea Hot (S)")
+                qty = int(input("Quantity: "))
+                bubble_tea_hot_s += qty
+                E = input("You wanna order: Yes or No : ")
+                if E == "No":
+                    break
+                elif E == "Yes":
+                    print(f"\nYour Order is Bubble_tea Hot (S): {bubble_tea_hot_s} cup(s)\n")
+            elif C == 2:
+                print("Your menu is bubble_tea (M)")
+                qty = int(input("Quantity: "))
+                bubble_tea_hot_m += qty
+                E = input("You wanna order: Yes or No : ")
+                if E == "No":
+                    break
+                elif E == "Yes":
+                    print(f"\nYour Order is Bubble_tea Hot (M): {bubble_tea_hot_m} cup(s)\n")
+            elif C == 3:
+                print("Your menu is Bubble_tea Hot (L)")
+                qty = int(input("Quantity: "))
+                bubble_tea_hot_l = qty1
+                E = input("You wanna order: Yes or No : ")
+                if E == "No":
+                    break
+                elif E == "Yes":
+                    print(f"\nYour Order is Bubble_tea Hot (L): {bubble_tea_hot_l} cup(s)\n")
+        elif B == 2:
+            main2()
+            C = int(input("Choose: "))
+            if C == 1:
+                print("Your menu is Bubble_tea Cold (S)")
+                qty = int(input("Quantity: "))
+                bubble_tea_cold_s += qty
+                E = input("You wanna order: Yes or No : ")
+                if E == "No":
+                    break
+                elif E == "Yes":
+                    print(f"\nYour Order is Bubble_tea Cold (S): {bubble_tea_cold_s} cup(s)\n")
+            elif C == 2:
+                print("Your menu is Bubble_tea Cold (M)")
+                qty = int(input("Quantity: "))
+                bubble_tea_cold_m += qty
+                E = input("You wanna order: Yes or No : ")
+                if E == "No":
+                    break
+                elif E == "Yes":
+                    print(f"\nYour Order is Bubble_tea Cold (M): {bubble_tea_cold_m} cup(s)\n")
+            elif C == 3:
+                print("Your menu is bubble_tea (L)")
+                qty = int(input("Quantity: "))
+                bubble_tea_cold_l += qty
+                E = input("You wanna order: Yes or No : ")
+                if E == "No":
+                    break
+                elif E == "Yes": 
+                    print(f"\nYour Order is Bubble_tea Cold (L): {bubble_tea_cold_l} cup(s)\n")
+        elif B == 3:
+            main2()
+            C = int(input("Choose: "))
+            if C == 1:
+                print("Your menu is Bubble_tea Shake (S)")
+                qty = int(input("Quantity: "))
+                bubble_tea_shake_s += qty
+                E = input("You wanna order: Yes or No : ")
+                if E == "No":
+                    break
+                elif E == "Yes":
+                    print(f"\nYour Order is Bubble_tea Shake (S): {bubble_tea_shake_s} cup(s)\n")
+            elif C == 2:
+                print("Your menu is Bubble_tea Shake (M)")
+                qty = int(input("Quantity: "))
+                bubble_tea_shake_m += qty
+                E = input("You wanna order: Yes or No : ")
+                if E == "No":
+                    break
+                elif E == "Yes":
+                    print(f"\nYour Order is Bubble_tea Shake (M): {bubble_tea_shake_m} cup(s)\n")
+            elif C == 3:
+                print("Your menu is Bubble_tea Shake (L)")
+                qty = int(input("Quantity: "))
+                bubble_tea_shake_l += qty
+                E = input("You wanna order: Yes or No : ")
+                if E == "No":
+                    break
+                elif E == "Yes":
+                    print(f"\nYour Order is Bubble_tea Shake (L): {bubble_tea_shake_l} cup(s)\n")
+    if A == 16:
+        print("Your menu is Cupcake")
+        qty = int(input("Quantity: "))
+        cupcake += qty
+        E = input("You wanna order: Yes or No : ")
+        if E == "No":
+            break
+        elif E == "Yes":
+            print(f"\nYour Order is Cupcake : {cupcake} Piece(s)\n")
+    if A == 17:
+        print("Your menu is Brownie")
+        qty = int(input("Quantity: "))
+        brownie += qty
+        E = input("You wanna order: Yes or No : ")
+        if E == "No":
+            break
+        elif E == "Yes":
+            print(f"\nYour Order is Brownie : {brownie} Piece(s)\n")
+    if A == 18:
+        print("Your menu is Macaron")
+        qty = int(input("Quantity: "))
+        macaron += qty
+        E = input("You wanna order: Yes or No : ")
+        if E == "No":
+            break
+        elif E == "Yes":
+            print(f"\nYour Order is Macaron : {macaron} Piece(s)\n")
+    if A == 19:
+        print("Your menu is Cookie")
+        qty = int(input("Quantity: "))
+        cookie += qty
+        E = input("You wanna order: Yes or No : ")
+        if E == "No":
+            break
+        elif E == "Yes":
+            print(f"\nYour Order is Cookie : {cookie} Piece(s)\n")
+    if A == 20:
+        print("Your menu is Donut")
+        qty = int(input("Quantity: "))
+        donut += qty
+        E = input("You wanna order: Yes or No : ")
+        if E == "No":
+            break
+        elif E == "Yes":
+            print(f"\nYour Order is Donut : {donut} Piece(s)\n")
+    if A == 21:
+        print("Your menu is Muffin")
+        qty = int(input("Quantity: "))
+        muffin += qty
+        E = input("You wanna order: Yes or No : ")
+        if E == "No":
+            break
+        elif E == "Yes":
+            print(f"\nYour Order is Muffin : {muffin} Piece(s)\n")
+    if A == 22:
+        print("Your menu is Croissant")
+        qty = int(input("Quantity: "))
+        croissant += qty
+        E = input("You wanna order: Yes or No : ")
+        if E == "No":
+            break
+        elif E == "Yes":
+            print(f"\nYour Order is Croissant : {croissant} Piece(s)\n")
+
+
+
+print("===================================================")
+print(" ||                     BILL                     ||")
+print("===================================================")
+print(" || Items\t\t        Qty\t          Amount\t ||")
+
+
+
+
+
+
+
+    
+
+
+
+
+    
+    
+
+
 
