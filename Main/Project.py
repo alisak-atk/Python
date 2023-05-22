@@ -1920,7 +1920,11 @@ total_price_thai_tea = (thai_tea_hot_s * thai_tea_hot_s_price) + (thai_tea_hot_m
 total_qty_bubble_tea = bubble_tea_hot_s + bubble_tea_hot_m + bubble_tea_hot_l + bubble_tea_cold_s + bubble_tea_cold_m + bubble_tea_cold_l + bubble_tea_shake_s + bubble_tea_shake_m + bubble_tea_shake_l
 total_price_bubble_tea = (bubble_tea_hot_s * bubble_tea_hot_s_price) + (bubble_tea_hot_m * bubble_tea_hot_m_price) + (bubble_tea_hot_l * bubble_tea_hot_l_price) + (bubble_tea_cold_s * bubble_tea_cold_s_price) + (bubble_tea_cold_m * bubble_tea_cold_m_price) + (bubble_tea_cold_l * bubble_tea_cold_l_price) + (bubble_tea_shake_s * bubble_tea_shake_s_price) + (bubble_tea_shake_m * bubble_tea_shake_m_price) + (bubble_tea_shake_l * bubble_tea_shake_l_price)
 
+total_qty_sweets = cupcake + brownie + macaron + cookie + donut + muffin + croissant
+total_price_sweets = (cupcake * cupcake_price) + (brownie * brownie_price) + (macaron * macaron_price) + (cookie * cookie_price) + (donut * donut_price) + (muffin * muffin_price) + (croissant * croissant_price)
 
+total_qty = total_qty_espresso + total_qty_americano + total_qty_latte + total_qty_cappuccino + total_qty_chocolate + total_qty_frappuccino + total_qty_mocha + total_qty_coffee + total_qty_black_tea + total_qty_green_tea + total_qty_oolong_tea + total_qty_chai_tea + total_qty_herbal_tea + total_qty_thai_tea + total_qty_bubble_tea + total_qty_sweets
+total_price = total_price_espresso + total_price_americano + total_price_latte + total_price_cappuccino + total_price_chocolate + total_price_frappuccino + total_price_mocha + total_price_coffee + total_price_black_tea + total_price_green_tea + total_price_oolong_tea + total_price_chai_tea + total_price_herbal_tea + total_price_thai_tea + total_price_bubble_tea + total_price_sweets
 
 print("===================================================")
 print(f" || Total Qty:\t\t\t\t\t\t\t{total_qty} Qty(s) ||")
