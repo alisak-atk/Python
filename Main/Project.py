@@ -1855,6 +1855,25 @@ print(" ||                     BILL                     ||")
 print("===================================================")
 print(" || Items\t\t        Qty\t          Amount\t ||")
 
+if espresso_hot_s >= 1:
+    print(f" || Espresso Hot   (S) \t{espresso_hot_s}\t\t  \t  {espresso_hot_s_price} Kip  ||")
+if espresso_hot_m >= 1:
+    print(f" || Espresso Hot   (M) \t{espresso_hot_m}\t\t  \t  {espresso_hot_m_price} Kip  ||")
+if espresso_hot_l >= 1:
+    print(f" || Espresso Hot   (L) \t{espresso_hot_l}\t\t  \t  {espresso_hot_l_price} Kip  ||")
+if espresso_cold_s >= 1:
+    print(f" || Espresso Cold  (S) \t{espresso_cold_s}\t\t  \t  {espresso_cold_s_price} Kip  ||")
+if espresso_cold_m >= 1:
+    print(f" || Espresso Cold  (M) \t{espresso_cold_m}\t\t  \t  {espresso_cold_m_price} Kip  ||")
+if espresso_cold_l >= 1:
+    print(f" || Espresso Cold  (L) \t{espresso_cold_l}\t\t  \t  {espresso_cold_l_price} Kip  ||")
+if espresso_shake_s >= 1:
+    print(f" || Espresso Shake (S) \t{espresso_shake_s}\t\t  \t  {espresso_shake_s_price} Kip  ||")
+if espresso_shake_m >= 1:
+    print(f" || Espresso Shake (M) \t{espresso_shake_m}\t\t  \t  {espresso_shake_m_price} Kip  ||")
+if espresso_shake_l >= 1:
+    print(f" || Espresso Shake (L) \t{espresso_shake_l}\t\t  \t  {espresso_shake_l_price} Kip  ||")
+
 
 
 
