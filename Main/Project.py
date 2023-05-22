@@ -1878,6 +1878,50 @@ if espresso_shake_l >= 1:
 total_qty_espresso = espresso_hot_s + espresso_hot_m + espresso_hot_l + espresso_cold_s + espresso_cold_m + espresso_cold_l + espresso_shake_s + espresso_shake_m + espresso_shake_l
 total_price_espresso = (espresso_hot_s * espresso_hot_s_price) + (espresso_hot_m * espresso_hot_m_price) + (espresso_hot_l * espresso_hot_l_price) + (espresso_cold_s * espresso_cold_s_price) + (espresso_cold_m * espresso_cold_m_price) + (espresso_cold_l * espresso_cold_l_price) + (espresso_shake_s * espresso_shake_s_price) + (espresso_shake_m * espresso_shake_m_price) + (espresso_shake_l * espresso_shake_l_price)
 
+total_qty_americano = americano_hot_s + americano_hot_m + americano_hot_l + americano_cold_s + americano_cold_m + americano_cold_l + americano_shake_s + americano_shake_m + americano_shake_l
+total_price_americano = (americano_hot_s * americano_hot_s_price) + (americano_hot_m * americano_hot_m_price) + (americano_hot_l * americano_hot_l_price) + (americano_cold_s * americano_cold_s_price) + (americano_cold_m * americano_cold_m_price) + (americano_cold_l * americano_cold_l_price) + (americano_shake_s * americano_shake_s_price) + (americano_shake_m * americano_shake_m_price) + (americano_shake_l * americano_shake_l_price)
+
+total_qty_latte = latte_hot_s + latte_hot_m + latte_hot_l + latte_cold_s + latte_cold_m + latte_cold_l + latte_shake_s + latte_shake_m + latte_shake_l
+total_price_latte = (latte_hot_s * latte_hot_s_price) + (latte_hot_m * latte_hot_m_price) + (latte_hot_l * latte_hot_l_price) + (latte_cold_s * latte_cold_s_price) + (latte_cold_m * latte_cold_m_price) + (latte_cold_l * latte_cold_l_price) + (latte_shake_s * latte_shake_s_price) + (latte_shake_m * latte_shake_m_price) + (latte_shake_l * latte_shake_l_price)
+
+total_qty_cappuccino = cappuccino_hot_s + cappuccino_hot_m + cappuccino_hot_l + cappuccino_cold_s + cappuccino_cold_m + cappuccino_cold_l + cappuccino_shake_s + cappuccino_shake_m + cappuccino_shake_l
+total_price_cappuccino = (cappuccino_hot_s * cappuccino_hot_s_price) + (cappuccino_hot_m * cappuccino_hot_m_price) + (cappuccino_hot_l * cappuccino_hot_l_price) + (cappuccino_cold_s * cappuccino_cold_s_price) + (cappuccino_cold_m * cappuccino_cold_m_price) + (cappuccino_cold_l * cappuccino_cold_l_price) + (cappuccino_shake_s * cappuccino_shake_s_price) + (cappuccino_shake_m * cappuccino_shake_m_price) + (cappuccino_shake_l * cappuccino_shake_l_price)
+
+total_qty_chocolate = chocolate_hot_s + chocolate_hot_m + chocolate_hot_l + chocolate_cold_s + chocolate_cold_m + chocolate_cold_l + chocolate_shake_s + chocolate_shake_m + chocolate_shake_l
+total_price_chocolate = (chocolate_hot_s * chocolate_hot_s_price) + (chocolate_hot_m * chocolate_hot_m_price) + (chocolate_hot_l * chocolate_hot_l_price) + (chocolate_cold_s * chocolate_cold_s_price) + (chocolate_cold_m * chocolate_cold_m_price) + (chocolate_cold_l * chocolate_cold_l_price) + (chocolate_shake_s * chocolate_shake_s_price) + (chocolate_shake_m * chocolate_shake_m_price) + (chocolate_shake_l * chocolate_shake_l_price)
+
+total_qty_frappuccino = frappuccino_hot_s + frappuccino_hot_m + frappuccino_hot_l + frappuccino_cold_s + frappuccino_cold_m + frappuccino_cold_l + frappuccino_shake_s + frappuccino_shake_m + frappuccino_shake_l
+total_price_frappuccino = (frappuccino_hot_s * frappuccino_hot_s_price) + (frappuccino_hot_m * frappuccino_hot_m_price) + (frappuccino_hot_l * frappuccino_hot_l_price) + (frappuccino_cold_s * frappuccino_cold_s_price) + (frappuccino_cold_m * frappuccino_cold_m_price) + (frappuccino_cold_l * frappuccino_cold_l_price) + (frappuccino_shake_s * frappuccino_shake_s_price) + (frappuccino_shake_m * frappuccino_shake_m_price) + (frappuccino_shake_l * frappuccino_shake_l_price)
+
+total_qty_mocha = mocha_hot_s + mocha_hot_m + mocha_hot_l + mocha_cold_s + mocha_cold_m + mocha_cold_l + mocha_shake_s + mocha_shake_m + mocha_shake_l
+total_price_mocha = (mocha_hot_s * mocha_hot_s_price) + (mocha_hot_m * mocha_hot_m_price) + (mocha_hot_l * mocha_hot_l_price) + (mocha_cold_s * mocha_cold_s_price) + (mocha_cold_m * mocha_cold_m_price) + (mocha_cold_l * mocha_cold_l_price) + (mocha_shake_s * mocha_shake_s_price) + (mocha_shake_m * mocha_shake_m_price) + (mocha_shake_l * mocha_shake_l_price)
+
+total_qty_coffee = coffee_hot_s + coffee_hot_m + coffee_hot_l + coffee_cold_s + coffee_cold_m + coffee_cold_l + coffee_shake_s + coffee_shake_m + coffee_shake_l
+total_price_coffee = (coffee_hot_s * coffee_hot_s_price) + (coffee_hot_m * coffee_hot_m_price) + (coffee_hot_l * coffee_hot_l_price) + (coffee_cold_s * coffee_cold_s_price) + (coffee_cold_m * coffee_cold_m_price) + (coffee_cold_l * coffee_cold_l_price) + (coffee_shake_s * coffee_shake_s_price) + (coffee_shake_m * coffee_shake_m_price) + (coffee_shake_l * coffee_shake_l_price)
+
+total_qty_black_tea = black_tea_hot_s + black_tea_hot_m + black_tea_hot_l + black_tea_cold_s + black_tea_cold_m + black_tea_cold_l + black_tea_shake_s + black_tea_shake_m + black_tea_shake_l
+total_price_black_tea = (black_tea_hot_s * black_tea_hot_s_price) + (black_tea_hot_m * black_tea_hot_m_price) + (black_tea_hot_l * black_tea_hot_l_price) + (black_tea_cold_s * black_tea_cold_s_price) + (black_tea_cold_m * black_tea_cold_m_price) + (black_tea_cold_l * black_tea_cold_l_price) + (black_tea_shake_s * black_tea_shake_s_price) + (black_tea_shake_m * black_tea_shake_m_price) + (black_tea_shake_l * black_tea_shake_l_price)
+
+total_qty_green_tea = green_tea_hot_s + green_tea_hot_m + green_tea_hot_l + green_tea_cold_s + green_tea_cold_m + green_tea_cold_l + green_tea_shake_s + green_tea_shake_m + green_tea_shake_l
+total_price_green_tea = (green_tea_hot_s * green_tea_hot_s_price) + (green_tea_hot_m * green_tea_hot_m_price) + (green_tea_hot_l * green_tea_hot_l_price) + (green_tea_cold_s * green_tea_cold_s_price) + (green_tea_cold_m * green_tea_cold_m_price) + (green_tea_cold_l * green_tea_cold_l_price) + (green_tea_shake_s * green_tea_shake_s_price) + (green_tea_shake_m * green_tea_shake_m_price) + (green_tea_shake_l * green_tea_shake_l_price)
+
+total_qty_oolong_tea = oolong_tea_hot_s + oolong_tea_hot_m + oolong_tea_hot_l + oolong_tea_cold_s + oolong_tea_cold_m + oolong_tea_cold_l + oolong_tea_shake_s + oolong_tea_shake_m + oolong_tea_shake_l
+total_price_oolong_tea = (oolong_tea_hot_s * oolong_tea_hot_s_price) + (oolong_tea_hot_m * oolong_tea_hot_m_price) + (oolong_tea_hot_l * oolong_tea_hot_l_price) + (oolong_tea_cold_s * oolong_tea_cold_s_price) + (oolong_tea_cold_m * oolong_tea_cold_m_price) + (oolong_tea_cold_l * oolong_tea_cold_l_price) + (oolong_tea_shake_s * oolong_tea_shake_s_price) + (oolong_tea_shake_m * oolong_tea_shake_m_price) + (oolong_tea_shake_l * oolong_tea_shake_l_price)
+
+total_qty_chai_tea = chai_tea_hot_s + chai_tea_hot_m + chai_tea_hot_l + chai_tea_cold_s + chai_tea_cold_m + chai_tea_cold_l + chai_tea_shake_s + chai_tea_shake_m + chai_tea_shake_l
+total_price_chai_tea = (chai_tea_hot_s * chai_tea_hot_s_price) + (chai_tea_hot_m * chai_tea_hot_m_price) + (chai_tea_hot_l * chai_tea_hot_l_price) + (chai_tea_cold_s * chai_tea_cold_s_price) + (chai_tea_cold_m * chai_tea_cold_m_price) + (chai_tea_cold_l * chai_tea_cold_l_price) + (chai_tea_shake_s * chai_tea_shake_s_price) + (chai_tea_shake_m * chai_tea_shake_m_price) + (chai_tea_shake_l * chai_tea_shake_l_price)
+
+total_qty_herbal_tea = herbal_tea_hot_s + herbal_tea_hot_m + herbal_tea_hot_l + herbal_tea_cold_s + herbal_tea_cold_m + herbal_tea_cold_l + herbal_tea_shake_s + herbal_tea_shake_m + herbal_tea_shake_l
+total_price_herbal_tea = (herbal_tea_hot_s * herbal_tea_hot_s_price) + (herbal_tea_hot_m * herbal_tea_hot_m_price) + (herbal_tea_hot_l * herbal_tea_hot_l_price) + (herbal_tea_cold_s * herbal_tea_cold_s_price) + (herbal_tea_cold_m * herbal_tea_cold_m_price) + (herbal_tea_cold_l * herbal_tea_cold_l_price) + (herbal_tea_shake_s * herbal_tea_shake_s_price) + (herbal_tea_shake_m * herbal_tea_shake_m_price) + (herbal_tea_shake_l * herbal_tea_shake_l_price)
+
+total_qty_thai_tea = thai_tea_hot_s + thai_tea_hot_m + thai_tea_hot_l + thai_tea_cold_s + thai_tea_cold_m + thai_tea_cold_l + thai_tea_shake_s + thai_tea_shake_m + thai_tea_shake_l
+total_price_thai_tea = (thai_tea_hot_s * thai_tea_hot_s_price) + (thai_tea_hot_m * thai_tea_hot_m_price) + (thai_tea_hot_l * thai_tea_hot_l_price) + (thai_tea_cold_s * thai_tea_cold_s_price) + (thai_tea_cold_m * thai_tea_cold_m_price) + (thai_tea_cold_l * thai_tea_cold_l_price) + (thai_tea_shake_s * thai_tea_shake_s_price) + (thai_tea_shake_m * thai_tea_shake_m_price) + (thai_tea_shake_l * thai_tea_shake_l_price)
+
+total_qty_bubble_tea = bubble_tea_hot_s + bubble_tea_hot_m + bubble_tea_hot_l + bubble_tea_cold_s + bubble_tea_cold_m + bubble_tea_cold_l + bubble_tea_shake_s + bubble_tea_shake_m + bubble_tea_shake_l
+total_price_bubble_tea = (bubble_tea_hot_s * bubble_tea_hot_s_price) + (bubble_tea_hot_m * bubble_tea_hot_m_price) + (bubble_tea_hot_l * bubble_tea_hot_l_price) + (bubble_tea_cold_s * bubble_tea_cold_s_price) + (bubble_tea_cold_m * bubble_tea_cold_m_price) + (bubble_tea_cold_l * bubble_tea_cold_l_price) + (bubble_tea_shake_s * bubble_tea_shake_s_price) + (bubble_tea_shake_m * bubble_tea_shake_m_price) + (bubble_tea_shake_l * bubble_tea_shake_l_price)
+
+
+
 print("===================================================")
 print(f" || Total Qty:\t\t\t\t\t\t\t{total_qty} Qty(s) ||")
 print(f" || Total Price:\t\t\t\t\t  {total_price} Kip\t ||")
