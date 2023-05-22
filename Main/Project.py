@@ -1,36 +1,28 @@
-# print("Hello World!")
-# print("Hello bro!!")
-# x = int(input(">>"))
-# y = int(input(">>"))
-# z = x + y
-# print(z)
-# print("=====XD=====")
-# print("------3232--------")
 
-# print("======================================")
-# print("==          WELCOME TO OUR          ==")
-# print("==            COFFEE SHOP           ==")
-# print("======================================")
-# print("==        MENU BOARD - COFFEE       ==")
-# print("======================================")
-# print("== 1. Espresso                      ==")
-# print("== 2. Americano                     ==")
-# print("== 3. Latte                         ==")
-# print("== 4. Cappuccino                    ==")
-# print("== 5. Mocha                         ==")
-# print("== 6. Chocolate                     ==")
-# print("== 7. Frappuccino                   ==")
-# print("======================================")
-# print("==        MENU BOARD - TEA          ==")
-# print("======================================")
-# print("== 8. Black Tea                     ==")
-# print("== 9. Green Tea                     ==")
-# print("== 10. Oolong Tea                   ==")
-# print("== 11. Chai Tea                     ==")
-# print("== 12. Herbal Tea                   ==")
-# print("== 13. Bubble Tea                   ==")
-# print("== 14. Thai Tea                     ==")
-# print("======================================")
+def main():
+    print("======================================================================================================")
+    print("||                                        WELCOME TO OUR SHOP                                      ||")
+    print("||                                  COFFEE, TEA, AND SWEET DELIGHTS                                ||")
+    print("======================================================================================================")
+    print("||                              MENU BOARD - COFFEE AND HOT CHOCOLATE                              ||")
+    print("======================================================================================================")
+    print("|| 1. Espresso                   ||  4. Cappuccino                ||  7. Mocha                     ||")
+    print("|| 2. Americano                  ||  5. Chocolate                 ||  8. Coffee                    ||")
+    print("|| 3. Latte                      ||  6. Frappuccino               ||                               ||")
+    print("======================================================================================================")
+    print("||                                  MENU BOARD - TEA AND ICED TEA                                  ||")
+    print("======================================================================================================")
+    print("||  9. Black Tea                 || 11. Oolong Tea                || 13. Herbal Tea                ||")
+    print("|| 10. Green Tea                 || 12. Chai Tea                  || 14. Thai Tea                  ||")
+    print("|| 15. Bubble Tea                ||                               ||                               ||")
+    print("======================================================================================================")
+    print("||                                      MENU BOARD - SWEETS                                        ||")
+    print("======================================================================================================")
+    print("|| 16. Cupcake     |  12.000 K   || 17. Brownie   |   12.000 K    || 18. Macaron    |   12.000 K   ||")
+    print("|| 19. Cookie      |  14.000 K   || 20. Donut     |   14.000 K    || 21. Muffin     |   14.000 K   ||")
+    print("|| 22. Croissant   |  16.000 K   ||                               ||                               ||")
+    print("======================================================================================================")
+
 
 def main1():
     print("===================================================")
@@ -51,29 +43,9 @@ def main2():
     print(" || 3. L (LARGE)         ||    30.000 K          ||")
     print("===================================================")
 
-def main():
-    print("======================================================================================================")
-    print("||                                        WELCOME TO OUR SHOP                                      ||")
-    print("||                                  COFFEE, TEA, AND SWEET DELIGHTS                                ||")
-    print("======================================================================================================")
-    print("||                              MENU BOARD - COFFEE AND HOT CHOCOLATE                              ||")
-    print("======================================================================================================")
-    print("|| 1. Espresso                   ||  4. Cappuccino                ||  7. Mocha                     ||")
-    print("|| 2. Americano                  ||  5. Chocolate                 ||  8. Coffee                    ||")
-    print("|| 3. Latte                      ||  6. Frappuccino               ||                               ||")
-    print("======================================================================================================")
-    print("||                                  MENU BOARD - TEA AND ICED TEA                                  ||")
-    print("======================================================================================================")
-    print("||  9. Black Tea                 || 11. Oolong Tea                || 13. Herbal Tea                ||")
-    print("|| 10. Green Tea                 || 12. Chai Tea                  || 14. Thai Tea                  ||")
-    print("|| 15. Bubble Tea                ||                               ||                               ||")  
-    print("======================================================================================================")
-    print("||                                      MENU BOARD - SWEETS                                        ||")
-    print("======================================================================================================")
-    print("|| 16. Cupcake     |  12.000 K   || 17. Brownie   |   12.000 K    || 18. Macaron    |   12.000 K   ||")
-    print("|| 19. Cookie      |  14.000 K   || 20. Donut     |   14.000 K    || 21. Muffin     |   14.000 K   ||")
-    print("|| 22. Croissant   |  16.000 K   ||                               ||                               ||")
-    print("======================================================================================================")
+
+
+
 
 espresso_hot_s = 0
 espresso_hot_m = 0
@@ -115,6 +87,7 @@ cappuccino_shake_s = 0
 cappuccino_shake_m = 0
 cappuccino_shake_l = 0
 
+chocolate_hot_s = 0
 chocolate_hot_m = 0
 chocolate_hot_l = 0
 chocolate_cold_s = 0
@@ -264,6 +237,26 @@ cappuccino_shake_s_price = 20000
 cappuccino_shake_m_price = 25000
 cappuccino_shake_l_price = 30000
 
+chocolate_hot_s_price = 20000
+chocolate_hot_m_price = 25000
+chocolate_hot_l_price = 30000
+chocolate_cold_s_price = 20000
+chocolate_cold_m_price = 25000
+chocolate_cold_l_price = 30000
+chocolate_shake_s_price = 20000
+chocolate_shake_m_price = 25000
+chocolate_shake_l_price = 30000
+
+frappuccino_hot_s_price = 20000
+frappuccino_hot_m_price = 25000
+frappuccino_hot_l_price = 30000
+frappuccino_cold_s_price = 20000
+frappuccino_cold_m_price = 25000
+frappuccino_cold_l_price = 30000
+frappuccino_shake_s_price = 20000
+frappuccino_shake_m_price = 25000
+frappuccino_shake_l_price = 30000
+
 mocha_hot_s_price = 20000
 mocha_hot_m_price = 25000
 mocha_hot_l_price = 30000
@@ -362,7 +355,6 @@ donut_price = 14000
 muffin_price = 14000
 croissant_price = 16000
 
-count = 0
 espresso = 0
 americano = 0
 latte = 0
@@ -373,7 +365,7 @@ mocha = 0
 coffee = 0
 black_tea = 0
 green_tea = 0
-oolong_tea = 0 
+oolong_tea = 0
 chai_tea = 0
 herbal_tea = 0
 thai_tea = 0
@@ -385,6 +377,7 @@ cookie = 0
 donut = 0
 muffin = 0
 croissant = 0
+pay = 0
 
 while True:
     main()
@@ -416,7 +409,7 @@ while True:
             elif C == 3:
                 print("Your menu is Espresso Hot (L)")
                 qty = int(input("Quantity: "))
-                espresso_hot_l = qty1
+                espresso_hot_l += qty
                 E = input("You wanna order: Yes or No : ")
                 if E == "No":
                     break
@@ -450,7 +443,7 @@ while True:
                 E = input("You wanna order: Yes or No : ")
                 if E == "No":
                     break
-                elif E == "Yes": 
+                elif E == "Yes":
                     print(f"\nYour Order is Espresso Cold (L): {espresso_cold_l} cup(s)\n")
         elif B == 3:
             main2()
@@ -509,7 +502,7 @@ while True:
             elif C == 3:
                 print("Your menu is Americano Hot (L)")
                 qty = int(input("Quantity: "))
-                americano_hot_l = qty1
+                americano_hot_l += qty
                 E = input("You wanna order: Yes or No : ")
                 if E == "No":
                     break
@@ -543,7 +536,7 @@ while True:
                 E = input("You wanna order: Yes or No : ")
                 if E == "No":
                     break
-                elif E == "Yes": 
+                elif E == "Yes":
                     print(f"\nYour Order is Americano Cold (L): {americano_cold_l} cup(s)\n")
         elif B == 3:
             main2()
@@ -602,7 +595,7 @@ while True:
             elif C == 3:
                 print("Your menu is Latte Hot (L)")
                 qty = int(input("Quantity: "))
-                latte_hot_l = qty1
+                latte_hot_l += qty
                 E = input("You wanna order: Yes or No : ")
                 if E == "No":
                     break
@@ -636,7 +629,7 @@ while True:
                 E = input("You wanna order: Yes or No : ")
                 if E == "No":
                     break
-                elif E == "Yes": 
+                elif E == "Yes":
                     print(f"\nYour Order is Latte Cold (L): {latte_cold_l} cup(s)\n")
         elif B == 3:
             main2()
@@ -695,7 +688,7 @@ while True:
             elif C == 3:
                 print("Your menu is Cappuccino Hot (L)")
                 qty = int(input("Quantity: "))
-                cappuccino_hot_l = qty1
+                cappuccino_hot_l += qty
                 E = input("You wanna order: Yes or No : ")
                 if E == "No":
                     break
@@ -729,7 +722,7 @@ while True:
                 E = input("You wanna order: Yes or No : ")
                 if E == "No":
                     break
-                elif E == "Yes": 
+                elif E == "Yes":
                     print(f"\nYour Order is Cappuccino Cold (L): {cappuccino_cold_l} cup(s)\n")
         elif B == 3:
             main2()
@@ -788,7 +781,7 @@ while True:
             elif C == 3:
                 print("Your menu is Chocolate Hot (L)")
                 qty = int(input("Quantity: "))
-                chocolate_hot_l = qty1
+                chocolate_hot_l += qty
                 E = input("You wanna order: Yes or No : ")
                 if E == "No":
                     break
@@ -822,7 +815,7 @@ while True:
                 E = input("You wanna order: Yes or No : ")
                 if E == "No":
                     break
-                elif E == "Yes": 
+                elif E == "Yes":
                     print(f"\nYour Order is Chocolate Cold (L): {chocolate_cold_l} cup(s)\n")
         elif B == 3:
             main2()
@@ -881,7 +874,7 @@ while True:
             elif C == 3:
                 print("Your menu is Frappuccino Hot (L)")
                 qty = int(input("Quantity: "))
-                frappuccino_hot_l = qty1
+                frappuccino_hot_l += qty
                 E = input("You wanna order: Yes or No : ")
                 if E == "No":
                     break
@@ -915,7 +908,7 @@ while True:
                 E = input("You wanna order: Yes or No : ")
                 if E == "No":
                     break
-                elif E == "Yes": 
+                elif E == "Yes":
                     print(f"\nYour Order is Frappuccino Cold (L): {frappuccino_cold_l} cup(s)\n")
         elif B == 3:
             main2()
@@ -974,7 +967,7 @@ while True:
             elif C == 3:
                 print("Your menu is Mocha Hot (L)")
                 qty = int(input("Quantity: "))
-                mocha_hot_l = qty1
+                mocha_hot_l += qty
                 E = input("You wanna order: Yes or No : ")
                 if E == "No":
                     break
@@ -1008,7 +1001,7 @@ while True:
                 E = input("You wanna order: Yes or No : ")
                 if E == "No":
                     break
-                elif E == "Yes": 
+                elif E == "Yes":
                     print(f"\nYour Order is Mocha Cold (L): {mocha_cold_l} cup(s)\n")
         elif B == 3:
             main2()
@@ -1067,7 +1060,7 @@ while True:
             elif C == 3:
                 print("Your menu is Coffee Hot (L)")
                 qty = int(input("Quantity: "))
-                coffee_hot_l = qty1
+                coffee_hot_l += qty
                 E = input("You wanna order: Yes or No : ")
                 if E == "No":
                     break
@@ -1101,7 +1094,7 @@ while True:
                 E = input("You wanna order: Yes or No : ")
                 if E == "No":
                     break
-                elif E == "Yes": 
+                elif E == "Yes":
                     print(f"\nYour Order is Coffee Cold (L): {coffee_cold_l} cup(s)\n")
         elif B == 3:
             main2()
@@ -1160,7 +1153,7 @@ while True:
             elif C == 3:
                 print("Your menu is Black_tea Hot (L)")
                 qty = int(input("Quantity: "))
-                black_tea_hot_l = qty1
+                black_tea_hot_l += qty
                 E = input("You wanna order: Yes or No : ")
                 if E == "No":
                     break
@@ -1194,7 +1187,7 @@ while True:
                 E = input("You wanna order: Yes or No : ")
                 if E == "No":
                     break
-                elif E == "Yes": 
+                elif E == "Yes":
                     print(f"\nYour Order is Black_tea Cold (L): {black_tea_cold_l} cup(s)\n")
         elif B == 3:
             main2()
@@ -1253,7 +1246,7 @@ while True:
             elif C == 3:
                 print("Your menu is Green_tea Hot (L)")
                 qty = int(input("Quantity: "))
-                green_tea_hot_l = qty1
+                green_tea_hot_l += qty
                 E = input("You wanna order: Yes or No : ")
                 if E == "No":
                     break
@@ -1287,7 +1280,7 @@ while True:
                 E = input("You wanna order: Yes or No : ")
                 if E == "No":
                     break
-                elif E == "Yes": 
+                elif E == "Yes":
                     print(f"\nYour Order is Green_tea Cold (L): {green_tea_cold_l} cup(s)\n")
         elif B == 3:
             main2()
@@ -1346,7 +1339,7 @@ while True:
             elif C == 3:
                 print("Your menu is Oolong_tea Hot (L)")
                 qty = int(input("Quantity: "))
-                oolong_tea_hot_l = qty1
+                oolong_tea_hot_l += qty
                 E = input("You wanna order: Yes or No : ")
                 if E == "No":
                     break
@@ -1380,7 +1373,7 @@ while True:
                 E = input("You wanna order: Yes or No : ")
                 if E == "No":
                     break
-                elif E == "Yes": 
+                elif E == "Yes":
                     print(f"\nYour Order is Oolong_tea Cold (L): {oolong_tea_cold_l} cup(s)\n")
         elif B == 3:
             main2()
@@ -1439,7 +1432,7 @@ while True:
             elif C == 3:
                 print("Your menu is Chai_tea Hot (L)")
                 qty = int(input("Quantity: "))
-                chai_tea_hot_l = qty1
+                chai_tea_hot_l += qty
                 E = input("You wanna order: Yes or No : ")
                 if E == "No":
                     break
@@ -1473,7 +1466,7 @@ while True:
                 E = input("You wanna order: Yes or No : ")
                 if E == "No":
                     break
-                elif E == "Yes": 
+                elif E == "Yes":
                     print(f"\nYour Order is Chai_tea Cold (L): {chai_tea_cold_l} cup(s)\n")
         elif B == 3:
             main2()
@@ -1532,7 +1525,7 @@ while True:
             elif C == 3:
                 print("Your menu is Herbal_tea Hot (L)")
                 qty = int(input("Quantity: "))
-                herbal_tea_hot_l = qty1
+                herbal_tea_hot_l += qty
                 E = input("You wanna order: Yes or No : ")
                 if E == "No":
                     break
@@ -1566,7 +1559,7 @@ while True:
                 E = input("You wanna order: Yes or No : ")
                 if E == "No":
                     break
-                elif E == "Yes": 
+                elif E == "Yes":
                     print(f"\nYour Order is Herbal_tea Cold (L): {herbal_tea_cold_l} cup(s)\n")
         elif B == 3:
             main2()
@@ -1625,7 +1618,7 @@ while True:
             elif C == 3:
                 print("Your menu is Thai_tea Hot (L)")
                 qty = int(input("Quantity: "))
-                thai_tea_hot_l = qty1
+                thai_tea_hot_l += qty
                 E = input("You wanna order: Yes or No : ")
                 if E == "No":
                     break
@@ -1659,7 +1652,7 @@ while True:
                 E = input("You wanna order: Yes or No : ")
                 if E == "No":
                     break
-                elif E == "Yes": 
+                elif E == "Yes":
                     print(f"\nYour Order is Thai_tea Cold (L): {thai_tea_cold_l} cup(s)\n")
         elif B == 3:
             main2()
@@ -1718,7 +1711,7 @@ while True:
             elif C == 3:
                 print("Your menu is Bubble_tea Hot (L)")
                 qty = int(input("Quantity: "))
-                bubble_tea_hot_l = qty1
+                bubble_tea_hot_l += qty
                 E = input("You wanna order: Yes or No : ")
                 if E == "No":
                     break
@@ -1752,7 +1745,7 @@ while True:
                 E = input("You wanna order: Yes or No : ")
                 if E == "No":
                     break
-                elif E == "Yes": 
+                elif E == "Yes":
                     print(f"\nYour Order is Bubble_tea Cold (L): {bubble_tea_cold_l} cup(s)\n")
         elif B == 3:
             main2()
@@ -1848,32 +1841,322 @@ while True:
         elif E == "Yes":
             print(f"\nYour Order is Croissant : {croissant} Piece(s)\n")
 
+print("\n===============================================================")
+print(" ||                           BILL                          ||")
+print("===============================================================")
+print(" || Items                       Qty                 Amount  ||")
 
 
-print("===================================================")
-print(" ||                     BILL                     ||")
-print("===================================================")
-print(" || Items\t\t        Qty\t          Amount\t ||")
+def menu_display():
+    if espresso_hot_s >= 1:
+        print(f" || Espresso Hot   (S)          {espresso_hot_s}               {espresso_hot_s_price:,} Kip ||")
+    if espresso_hot_m >= 1:
+        print(f" || Espresso Hot   (M)          {espresso_hot_m}               {espresso_hot_m_price:,} Kip ||")
+    if espresso_hot_l >= 1:
+        print(f" || Espresso Hot   (L)          {espresso_hot_l}               {espresso_hot_l_price:,} Kip ||")
+    if espresso_cold_s >= 1:
+        print(f" || Espresso Cold  (S)          {espresso_cold_s}               {espresso_cold_s_price:,} Kip ||")
+    if espresso_cold_m >= 1:
+        print(f" || Espresso Cold  (M)          {espresso_cold_m}               {espresso_cold_m_price:,} Kip ||")
+    if espresso_cold_l >= 1:
+        print(f" || Espresso Cold  (L)          {espresso_cold_l}               {espresso_cold_l_price:,} Kip ||")
+    if espresso_shake_s >= 1:
+        print(f" || Espresso Shake (S)          {espresso_shake_s}               {espresso_shake_s_price:,} Kip ||")
+    if espresso_shake_m >= 1:
+        print(f" || Espresso Shake (M)          {espresso_shake_m}               {espresso_shake_m_price:,} Kip ||")
+    if espresso_shake_l >= 1:
+        print(f" || Espresso Shake (L)          {espresso_shake_l}               {espresso_shake_l_price:,} Kip ||")
 
-if espresso_hot_s >= 1:
-    print(f" || Espresso Hot   (S) \t{espresso_hot_s}\t\t  \t  {espresso_hot_s_price} Kip  ||")
-if espresso_hot_m >= 1:
-    print(f" || Espresso Hot   (M) \t{espresso_hot_m}\t\t  \t  {espresso_hot_m_price} Kip  ||")
-if espresso_hot_l >= 1:
-    print(f" || Espresso Hot   (L) \t{espresso_hot_l}\t\t  \t  {espresso_hot_l_price} Kip  ||")
-if espresso_cold_s >= 1:
-    print(f" || Espresso Cold  (S) \t{espresso_cold_s}\t\t  \t  {espresso_cold_s_price} Kip  ||")
-if espresso_cold_m >= 1:
-    print(f" || Espresso Cold  (M) \t{espresso_cold_m}\t\t  \t  {espresso_cold_m_price} Kip  ||")
-if espresso_cold_l >= 1:
-    print(f" || Espresso Cold  (L) \t{espresso_cold_l}\t\t  \t  {espresso_cold_l_price} Kip  ||")
-if espresso_shake_s >= 1:
-    print(f" || Espresso Shake (S) \t{espresso_shake_s}\t\t  \t  {espresso_shake_s_price} Kip  ||")
-if espresso_shake_m >= 1:
-    print(f" || Espresso Shake (M) \t{espresso_shake_m}\t\t  \t  {espresso_shake_m_price} Kip  ||")
-if espresso_shake_l >= 1:
-    print(f" || Espresso Shake (L) \t{espresso_shake_l}\t\t  \t  {espresso_shake_l_price} Kip  ||")
-    
+    if americano_hot_s >= 1:
+        print(f" || Americano Hot   (S) \t\t{americano_hot_s}\t\t\t   \t {americano_hot_s_price:,} Kip ||")
+    if americano_hot_m >= 1:
+        print(f" || Americano Hot   (M) \t\t{americano_hot_m}\t\t\t   \t {americano_hot_m_price:,} Kip ||")
+    if americano_hot_l >= 1:
+        print(f" || Americano Hot   (L) \t\t{americano_hot_l}\t\t\t   \t {americano_hot_l_price:,} Kip ||")
+    if americano_cold_s >= 1:
+        print(f" || Americano Cold  (S) \t\t{americano_cold_s}\t\t\t   \t {americano_cold_s_price:,} Kip ||")
+    if americano_cold_m >= 1:
+        print(f" || Americano Cold  (M) \t\t{americano_cold_m}\t\t\t   \t {americano_cold_m_price:,} Kip ||")
+    if americano_cold_l >= 1:
+        print(f" || Americano Cold  (L) \t\t{americano_cold_l}\t\t\t   \t {americano_cold_l_price:,} Kip ||")
+    if americano_shake_s >= 1:
+        print(f" || Americano Shake (S) \t\t{americano_shake_s}\t\t\t   \t {americano_shake_s_price:,} Kip ||")
+    if americano_shake_m >= 1:
+        print(f" || Americano Shake (M) \t\t{americano_shake_m}\t\t\t   \t {americano_shake_m_price:,} Kip ||")
+    if americano_shake_l >= 1:
+        print(f" || Americano Shake (L) \t\t{americano_shake_l}\t\t\t   \t {americano_shake_l_price:,} Kip ||")
+
+    if latte_hot_s >= 1:
+        print(f" || Latte Hot   (S) \t\t\t{latte_hot_s}\t\t  \t  \t {latte_hot_s_price:,} Kip ||")
+    if latte_hot_m >= 1:
+        print(f" || Latte Hot   (M) \t\t\t{latte_hot_m}\t\t  \t  \t {latte_hot_m_price:,} Kip ||")
+    if latte_hot_l >= 1:
+        print(f" || Latte Hot   (L) \t\t\t{latte_hot_l}\t\t  \t  \t {latte_hot_l_price:,} Kip ||")
+    if latte_cold_s >= 1:
+        print(f" || Latte Cold  (S) \t\t\t{latte_cold_s}\t\t  \t  \t {latte_cold_s_price:,} Kip ||")
+    if latte_cold_m >= 1:
+        print(f" || Latte Cold  (M) \t\t\t{latte_cold_m}\t\t  \t  \t {latte_cold_m_price:,} Kip ||")
+    if latte_cold_l >= 1:
+        print(f" || Latte Cold  (L) \t\t\t{latte_cold_l}\t\t  \t  \t {latte_cold_l_price:,} Kip ||")
+    if latte_shake_s >= 1:
+        print(f" || Latte Shake (S) \t\t\t{latte_shake_s}\t\t  \t  \t {latte_shake_s_price:,} Kip ||")
+    if latte_shake_m >= 1:
+        print(f" || Latte Shake (M) \t\t\t{latte_shake_m}\t\t  \t  \t {latte_shake_m_price:,} Kip ||")
+    if latte_shake_l >= 1:
+        print(f" || Latte Shake (L) \t\t\t{latte_shake_l}\t\t  \t  \t {latte_shake_l_price:,} Kip ||")
+
+    if cappuccino_hot_s >= 1:
+        print(f" || Cappuccino Hot   (S) \t\t{cappuccino_hot_s}\t\t  \t  \t {cappuccino_hot_s_price:,} Kip ||")
+    if cappuccino_hot_m >= 1:
+        print(f" || Cappuccino Hot   (M) \t\t{cappuccino_hot_m}\t\t  \t  \t {cappuccino_hot_m_price:,} Kip ||")
+    if cappuccino_hot_l >= 1:
+        print(f" || Cappuccino Hot   (L) \t\t{cappuccino_hot_l}\t\t  \t  \t {cappuccino_hot_l_price:,} Kip ||")
+    if cappuccino_cold_s >= 1:
+        print(f" || Cappuccino Cold  (S) \t\t{cappuccino_cold_s}\t\t  \t  \t {cappuccino_cold_s_price:,} Kip ||")
+    if cappuccino_cold_m >= 1:
+        print(f" || Cappuccino Cold  (M) \t\t{cappuccino_cold_m}\t\t  \t  \t {cappuccino_cold_m_price:,} Kip ||")
+    if cappuccino_cold_l >= 1:
+        print(f" || Cappuccino Cold  (L) \t\t{cappuccino_cold_l}\t\t  \t  \t {cappuccino_cold_l_price:,} Kip ||")
+    if cappuccino_shake_s >= 1:
+        print(f" || Cappuccino Shake (S) \t\t{cappuccino_shake_s}\t\t  \t  \t {cappuccino_shake_s_price:,} Kip ||")
+    if cappuccino_shake_m >= 1:
+        print(f" || Cappuccino Shake (M) \t\t{cappuccino_shake_m}\t\t  \t  \t {cappuccino_shake_m_price:,} Kip ||")
+    if cappuccino_shake_l >= 1:
+        print(f" || Cappuccino Shake (L) \t\t{cappuccino_shake_l}\t\t  \t  \t {cappuccino_shake_l_price:,} Kip ||")
+
+    if chocolate_hot_s >= 1:
+        print(f" || Chocolate Hot   (S) \t\t{chocolate_hot_s}\t\t  \t  \t {chocolate_hot_s_price:,} Kip ||")
+    if chocolate_hot_m >= 1:
+        print(f" || Chocolate Hot   (M) \t\t{chocolate_hot_m}\t\t  \t  \t {chocolate_hot_m_price:,} Kip ||")
+    if chocolate_hot_l >= 1:
+        print(f" || Chocolate Hot   (L) \t\t{chocolate_hot_l}\t\t  \t  \t {chocolate_hot_l_price:,} Kip ||")
+    if chocolate_cold_s >= 1:
+        print(f" || Chocolate Cold  (S) \t\t{chocolate_cold_s}\t\t  \t  \t {chocolate_cold_s_price:,} Kip ||")
+    if chocolate_cold_m >= 1:
+        print(f" || Chocolate Cold  (M) \t\t{chocolate_cold_m}\t\t  \t  \t {chocolate_cold_m_price:,} Kip ||")
+    if chocolate_cold_l >= 1:
+        print(f" || Chocolate Cold  (L) \t\t{chocolate_cold_l}\t\t  \t  \t {chocolate_cold_l_price:,} Kip ||")
+    if chocolate_shake_s >= 1:
+        print(f" || Chocolate Shake (S) \t\t{chocolate_shake_s}\t\t  \t  \t {chocolate_shake_s_price:,} Kip ||")
+    if chocolate_shake_m >= 1:
+        print(f" || Chocolate Shake (M) \t\t{chocolate_shake_m}\t\t  \t  \t {chocolate_shake_m_price:,} Kip ||")
+    if chocolate_shake_l >= 1:
+        print(f" || Chocolate Shake (L) \t\t{chocolate_shake_l}\t\t  \t  \t {chocolate_shake_l_price:,} Kip ||")
+
+    if frappuccino_hot_s >= 1:
+        print(f" || Frappuccino Hot   (S) \t\t{frappuccino_hot_s}\t\t  \t  \t {frappuccino_hot_s_price:,} Kip ||")
+    if frappuccino_hot_m >= 1:
+        print(f" || Frappuccino Hot   (M) \t\t{frappuccino_hot_m}\t\t  \t  \t {frappuccino_hot_m_price:,} Kip ||")
+    if frappuccino_hot_l >= 1:
+        print(f" || Frappuccino Hot   (L) \t\t{frappuccino_hot_l}\t\t  \t  \t {frappuccino_hot_l_price:,} Kip ||")
+    if frappuccino_cold_s >= 1:
+        print(f" || Frappuccino Cold  (S) \t\t{frappuccino_cold_s}\t\t  \t  \t {frappuccino_cold_s_price:,} Kip ||")
+    if frappuccino_cold_m >= 1:
+        print(f" || Frappuccino Cold  (M) \t\t{frappuccino_cold_m}\t\t  \t  \t {frappuccino_cold_m_price:,} Kip ||")
+    if frappuccino_cold_l >= 1:
+        print(f" || Frappuccino Cold  (L) \t\t{frappuccino_cold_l}\t\t  \t  \t {frappuccino_cold_l_price:,} Kip ||")
+    if frappuccino_shake_s >= 1:
+        print(f" || Frappuccino Shake (S) \t\t{frappuccino_shake_s}\t\t  \t  \t {frappuccino_shake_s_price:,} Kip ||")
+    if frappuccino_shake_m >= 1:
+        print(f" || Frappuccino Shake (M) \t\t{frappuccino_shake_m}\t\t  \t  \t {frappuccino_shake_m_price:,} Kip ||")
+    if frappuccino_shake_l >= 1:
+        print(f" || Frappuccino Shake (L) \t\t{frappuccino_shake_l}\t\t  \t  \t {frappuccino_shake_l_price:,} Kip ||")
+
+    if mocha_hot_s >= 1:
+        print(f" || Mocha Hot   (S) \t\t\t{mocha_hot_s}\t\t  \t  \t {mocha_hot_s_price:,} Kip ||")
+    if mocha_hot_m >= 1:
+        print(f" || Mocha Hot   (M) \t\t\t{mocha_hot_m}\t\t  \t  \t {mocha_hot_m_price:,} Kip ||")
+    if mocha_hot_l >= 1:
+        print(f" || Mocha Hot   (L) \t\t\t{mocha_hot_l}\t\t  \t  \t {mocha_hot_l_price:,} Kip ||")
+    if mocha_cold_s >= 1:
+        print(f" || Mocha Cold  (S) \t\t\t{mocha_cold_s}\t\t  \t  \t {mocha_cold_s_price:,} Kip ||")
+    if mocha_cold_m >= 1:
+        print(f" || Mocha Cold  (M) \t\t\t{mocha_cold_m}\t\t  \t  \t {mocha_cold_m_price:,} Kip ||")
+    if mocha_cold_l >= 1:
+        print(f" || Mocha Cold  (L) \t\t\t{mocha_cold_l}\t\t  \t  \t {mocha_cold_l_price:,} Kip ||")
+    if mocha_shake_s >= 1:
+        print(f" || Mocha Shake (S) \t\t\t{mocha_shake_s}\t\t  \t  \t {mocha_shake_s_price:,} Kip ||")
+    if mocha_shake_m >= 1:
+        print(f" || Mocha Shake (M) \t\t\t{mocha_shake_m}\t\t  \t  \t {mocha_shake_m_price:,} Kip ||")
+    if mocha_shake_l >= 1:
+        print(f" || Mocha Shake (L) \t\t\t{mocha_shake_l}\t\t  \t  \t {mocha_shake_l_price:,} Kip ||")
+
+    if coffee_hot_s >= 1:
+        print(f" || Coffee Hot   (S) \t\t\t{coffee_hot_s}\t\t  \t  \t {coffee_hot_s_price:,} Kip ||")
+    if coffee_hot_m >= 1:
+        print(f" || Coffee Hot   (M) \t\t\t{coffee_hot_m}\t\t  \t  \t {coffee_hot_m_price:,} Kip ||")
+    if coffee_hot_l >= 1:
+        print(f" || Coffee Hot   (L) \t\t\t{coffee_hot_l}\t\t  \t  \t {coffee_hot_l_price:,} Kip ||")
+    if coffee_cold_s >= 1:
+        print(f" || Coffee Cold  (S) \t\t\t{coffee_cold_s}\t\t  \t  \t {coffee_cold_s_price:,} Kip ||")
+    if coffee_cold_m >= 1:
+        print(f" || Coffee Cold  (M) \t\t\t{coffee_cold_m}\t\t  \t  \t {coffee_cold_m_price:,} Kip ||")
+    if coffee_cold_l >= 1:
+        print(f" || Coffee Cold  (L) \t\t\t{coffee_cold_l}\t\t  \t  \t {coffee_cold_l_price:,} Kip ||")
+    if coffee_shake_s >= 1:
+        print(f" || Coffee Shake (S) \t\t\t{coffee_shake_s}\t\t  \t  \t {coffee_shake_s_price:,} Kip ||")
+    if coffee_shake_m >= 1:
+        print(f" || Coffee Shake (M) \t\t\t{coffee_shake_m}\t\t  \t  \t {coffee_shake_m_price:,} Kip ||")
+    if coffee_shake_l >= 1:
+        print(f" || Coffee Shake (L) \t\t\t{coffee_shake_l}\t\t  \t  \t {coffee_shake_l_price:,} Kip ||")
+
+    if black_tea_hot_s >= 1:
+        print(f" || Black_tea Hot   (S) \t\t{black_tea_hot_s}\t\t  \t  \t {black_tea_hot_s_price:,} Kip ||")
+    if black_tea_hot_m >= 1:
+        print(f" || Black_tea Hot   (M) \t\t{black_tea_hot_m}\t\t  \t  \t {black_tea_hot_m_price:,} Kip ||")
+    if black_tea_hot_l >= 1:
+        print(f" || Black_tea Hot   (L) \t\t{black_tea_hot_l}\t\t  \t  \t {black_tea_hot_l_price:,} Kip ||")
+    if black_tea_cold_s >= 1:
+        print(f" || Black_tea Cold  (S) \t\t{black_tea_cold_s}\t\t  \t  \t {black_tea_cold_s_price:,} Kip ||")
+    if black_tea_cold_m >= 1:
+        print(f" || Black_tea Cold  (M) \t\t{black_tea_cold_m}\t\t  \t  \t {black_tea_cold_m_price:,} Kip ||")
+    if black_tea_cold_l >= 1:
+        print(f" || Black_tea Cold  (L) \t\t{black_tea_cold_l}\t\t  \t  \t {black_tea_cold_l_price:,} Kip ||")
+    if black_tea_shake_s >= 1:
+        print(f" || Black_tea Shake (S) \t\t{black_tea_shake_s}\t\t  \t  \t {black_tea_shake_s_price:,} Kip ||")
+    if black_tea_shake_m >= 1:
+        print(f" || Black_tea Shake (M) \t\t{black_tea_shake_m}\t\t  \t  \t {black_tea_shake_m_price:,} Kip ||")
+    if black_tea_shake_l >= 1:
+        print(f" || Black_tea Shake (L) \t\t{black_tea_shake_l}\t\t  \t  \t {black_tea_shake_l_price:,} Kip ||")
+
+    if green_tea_hot_s >= 1:
+        print(f" || Green_tea Hot   (S) \t\t{green_tea_hot_s}\t\t  \t  \t {green_tea_hot_s_price:,} Kip ||")
+    if green_tea_hot_m >= 1:
+        print(f" || Green_tea Hot   (M) \t\t{green_tea_hot_m}\t\t  \t  \t {green_tea_hot_m_price:,} Kip ||")
+    if green_tea_hot_l >= 1:
+        print(f" || Green_tea Hot   (L) \t\t{green_tea_hot_l}\t\t  \t  \t {green_tea_hot_l_price:,} Kip ||")
+    if green_tea_cold_s >= 1:
+        print(f" || Green_tea Cold  (S) \t\t{green_tea_cold_s}\t\t  \t  \t {green_tea_cold_s_price:,} Kip ||")
+    if green_tea_cold_m >= 1:
+        print(f" || Green_tea Cold  (M) \t\t{green_tea_cold_m}\t\t  \t  \t {green_tea_cold_m_price:,} Kip ||")
+    if green_tea_cold_l >= 1:
+        print(f" || Green_tea Cold  (L) \t\t{green_tea_cold_l}\t\t  \t  \t {green_tea_cold_l_price:,} Kip ||")
+    if green_tea_shake_s >= 1:
+        print(f" || Green_tea Shake (S) \t\t{green_tea_shake_s}\t\t  \t  \t {green_tea_shake_s_price:,} Kip ||")
+    if green_tea_shake_m >= 1:
+        print(f" || Green_tea Shake (M) \t\t{green_tea_shake_m}\t\t  \t  \t {green_tea_shake_m_price:,} Kip ||")
+    if green_tea_shake_l >= 1:
+        print(f" || Green_tea Shake (L) \t\t{green_tea_shake_l}\t\t  \t  \t {green_tea_shake_l_price:,} Kip ||")
+
+    if oolong_tea_hot_s >= 1:
+        print(f" || Oolong_tea Hot   (S) \t\t{oolong_tea_hot_s}\t\t  \t  \t {oolong_tea_hot_s_price:,} Kip ||")
+    if oolong_tea_hot_m >= 1:
+        print(f" || Oolong_tea Hot   (M) \t\t{oolong_tea_hot_m}\t\t  \t  \t {oolong_tea_hot_m_price:,} Kip ||")
+    if oolong_tea_hot_l >= 1:
+        print(f" || Oolong_tea Hot   (L) \t\t{oolong_tea_hot_l}\t\t  \t  \t {oolong_tea_hot_l_price:,} Kip ||")
+    if oolong_tea_cold_s >= 1:
+        print(f" || Oolong_tea Cold  (S) \t\t{oolong_tea_cold_s}\t\t  \t  \t {oolong_tea_cold_s_price:,} Kip ||")
+    if oolong_tea_cold_m >= 1:
+        print(f" || Oolong_tea Cold  (M) \t\t{oolong_tea_cold_m}\t\t  \t  \t {oolong_tea_cold_m_price:,} Kip ||")
+    if oolong_tea_cold_l >= 1:
+        print(f" || Oolong_tea Cold  (L) \t\t{oolong_tea_cold_l}\t\t  \t  \t {oolong_tea_cold_l_price:,} Kip ||")
+    if oolong_tea_shake_s >= 1:
+        print(f" || Oolong_tea Shake (S) \t\t{oolong_tea_shake_s}\t\t  \t  \t {oolong_tea_shake_s_price:,} Kip ||")
+    if oolong_tea_shake_m >= 1:
+        print(f" || Oolong_tea Shake (M) \t\t{oolong_tea_shake_m}\t\t  \t  \t {oolong_tea_shake_m_price:,} Kip ||")
+    if oolong_tea_shake_l >= 1:
+        print(f" || Oolong_tea Shake (L) \t\t{oolong_tea_shake_l}\t\t  \t  \t {oolong_tea_shake_l_price:,} Kip ||")
+
+    if chai_tea_hot_s >= 1:
+        print(f" || Chai_tea Hot   (S) \t\t\t{chai_tea_hot_s}\t\t  \t  \t {chai_tea_hot_s_price:,} Kip ||")
+    if chai_tea_hot_m >= 1:
+        print(f" || Chai_tea Hot   (M) \t\t\t{chai_tea_hot_m}\t\t  \t  \t {chai_tea_hot_m_price:,} Kip ||")
+    if chai_tea_hot_l >= 1:
+        print(f" || Chai_tea Hot   (L) \t\t\t{chai_tea_hot_l}\t\t  \t  \t {chai_tea_hot_l_price:,} Kip ||")
+    if chai_tea_cold_s >= 1:
+        print(f" || Chai_tea Cold  (S) \t\t\t{chai_tea_cold_s}\t\t  \t  \t {chai_tea_cold_s_price:,} Kip ||")
+    if chai_tea_cold_m >= 1:
+        print(f" || Chai_tea Cold  (M) \t\t\t{chai_tea_cold_m}\t\t  \t  \t {chai_tea_cold_m_price:,} Kip ||")
+    if chai_tea_cold_l >= 1:
+        print(f" || Chai_tea Cold  (L) \t\t\t{chai_tea_cold_l}\t\t  \t  \t {chai_tea_cold_l_price:,} Kip ||")
+    if chai_tea_shake_s >= 1:
+        print(f" || Chai_tea Shake (S) \t\t\t{chai_tea_shake_s}\t\t  \t  \t {chai_tea_shake_s_price:,} Kip ||")
+    if chai_tea_shake_m >= 1:
+        print(f" || Chai_tea Shake (M) \t\t\t{chai_tea_shake_m}\t\t  \t  \t {chai_tea_shake_m_price:,} Kip ||")
+    if chai_tea_shake_l >= 1:
+        print(f" || Chai_tea Shake (L) \t\t\t{chai_tea_shake_l}\t\t  \t  \t {chai_tea_shake_l_price:,} Kip ||")
+
+    if herbal_tea_hot_s >= 1:
+        print(f" || Herbal_tea Hot   (S) \t\t{herbal_tea_hot_s}\t\t  \t  \t {herbal_tea_hot_s_price:,} Kip ||")
+    if herbal_tea_hot_m >= 1:
+        print(f" || Herbal_tea Hot   (M) \t\t{herbal_tea_hot_m}\t\t  \t  \t {herbal_tea_hot_m_price:,} Kip ||")
+    if herbal_tea_hot_l >= 1:
+        print(f" || Herbal_tea Hot   (L) \t\t{herbal_tea_hot_l}\t\t  \t  \t {herbal_tea_hot_l_price:,} Kip ||")
+    if herbal_tea_cold_s >= 1:
+        print(f" || Herbal_tea Cold  (S) \t\t{herbal_tea_cold_s}\t\t  \t  \t {herbal_tea_cold_s_price:,} Kip ||")
+    if herbal_tea_cold_m >= 1:
+        print(f" || Herbal_tea Cold  (M) \t\t{herbal_tea_cold_m}\t\t  \t  \t {herbal_tea_cold_m_price:,} Kip ||")
+    if herbal_tea_cold_l >= 1:
+        print(f" || Herbal_tea Cold  (L) \t\t{herbal_tea_cold_l}\t\t  \t  \t {herbal_tea_cold_l_price:,} Kip ||")
+    if herbal_tea_shake_s >= 1:
+        print(f" || Herbal_tea Shake (S) \t\t{herbal_tea_shake_s}\t\t  \t  \t {herbal_tea_shake_s_price:,} Kip ||")
+    if herbal_tea_shake_m >= 1:
+        print(f" || Herbal_tea Shake (M) \t\t{herbal_tea_shake_m}\t\t  \t  \t {herbal_tea_shake_m_price:,} Kip ||")
+    if herbal_tea_shake_l >= 1:
+        print(f" || Herbal_tea Shake (L) \t\t{herbal_tea_shake_l}\t\t  \t  \t {herbal_tea_shake_l_price:,} Kip ||")
+
+    if thai_tea_hot_s >= 1:
+        print(f" || Thai_tea Hot   (S) \t\t\t{thai_tea_hot_s}\t\t  \t  \t {thai_tea_hot_s_price:,} Kip ||")
+    if thai_tea_hot_m >= 1:
+        print(f" || Thai_tea Hot   (M) \t\t\t{thai_tea_hot_m}\t\t  \t  \t {thai_tea_hot_m_price:,} Kip ||")
+    if thai_tea_hot_l >= 1:
+        print(f" || Thai_tea Hot   (L) \t\t\t{thai_tea_hot_l}\t\t  \t  \t {thai_tea_hot_l_price:,} Kip ||")
+    if thai_tea_cold_s >= 1:
+        print(f" || Thai_tea Cold  (S) \t\t\t{thai_tea_cold_s}\t\t  \t  \t {thai_tea_cold_s_price:,} Kip ||")
+    if thai_tea_cold_m >= 1:
+        print(f" || Thai_tea Cold  (M) \t\t\t{thai_tea_cold_m}\t\t  \t  \t {thai_tea_cold_m_price:,} Kip ||")
+    if thai_tea_cold_l >= 1:
+        print(f" || Thai_tea Cold  (L) \t\t\t{thai_tea_cold_l}\t\t  \t  \t {thai_tea_cold_l_price:,} Kip ||")
+    if thai_tea_shake_s >= 1:
+        print(f" || Thai_tea Shake (S) \t\t\t{thai_tea_shake_s}\t\t  \t  \t {thai_tea_shake_s_price:,} Kip ||")
+    if thai_tea_shake_m >= 1:
+        print(f" || Thai_tea Shake (M) \t\t\t{thai_tea_shake_m}\t\t  \t  \t {thai_tea_shake_m_price:,} Kip ||")
+    if thai_tea_shake_l >= 1:
+        print(f" || Thai_tea Shake (L) \t\t\t{thai_tea_shake_l}\t\t  \t  \t {thai_tea_shake_l_price:,} Kip ||")
+
+    if bubble_tea_hot_s >= 1:
+        print(f" || Bubble_tea Hot   (S) \t\t{bubble_tea_hot_s}\t\t  \t  \t {bubble_tea_hot_s_price:,} Kip ||")
+    if bubble_tea_hot_m >= 1:
+        print(f" || Bubble_tea Hot   (M) \t\t{bubble_tea_hot_m}\t\t  \t  \t {bubble_tea_hot_m_price:,} Kip ||")
+    if bubble_tea_hot_l >= 1:
+        print(f" || Bubble_tea Hot   (L) \t\t{bubble_tea_hot_l}\t\t  \t  \t {bubble_tea_hot_l_price:,} Kip ||")
+    if bubble_tea_cold_s >= 1:
+        print(f" || Bubble_tea Cold  (S) \t\t{bubble_tea_cold_s}\t\t  \t  \t {bubble_tea_cold_s_price:,} Kip ||")
+    if bubble_tea_cold_m >= 1:
+        print(f" || Bubble_tea Cold  (M) \t\t{bubble_tea_cold_m}\t\t  \t  \t {bubble_tea_cold_m_price:,} Kip ||")
+    if bubble_tea_cold_l >= 1:
+        print(f" || Bubble_tea Cold  (L) \t\t{bubble_tea_cold_l}\t\t  \t  \t {bubble_tea_cold_l_price:,} Kip ||")
+    if bubble_tea_shake_s >= 1:
+        print(f" || Bubble_tea Shake (S) \t\t{bubble_tea_shake_s}\t\t  \t  \t {bubble_tea_shake_s_price:,} Kip ||")
+    if bubble_tea_shake_m >= 1:
+        print(f" || Bubble_tea Shake (M) \t\t{bubble_tea_shake_m}\t\t  \t  \t {bubble_tea_shake_m_price:,} Kip ||")
+    if bubble_tea_shake_l >= 1:
+        print(f" || Bubble_tea Shake (L) \t\t{bubble_tea_shake_l}\t\t  \t  \t {bubble_tea_shake_l_price:,} Kip ||")
+
+    if cupcake >= 1:
+        print(f" || Cupcake  \t\t\t\t\t{cupcake}\t\t  \t  \t {cupcake_price:,} Kip ||")
+
+    if brownie >= 1:
+        print(f" || Brownie  \t\t\t\t\t{brownie}\t\t  \t  \t {brownie_price:,} Kip ||")
+
+    if macaron >= 1:
+        print(f" || Macaron  \t\t\t\t\t{macaron}\t\t  \t  \t {macaron_price:,} Kip ||")
+
+    if cookie >= 1:
+        print(f" || Cookie  \t\t\t\t\t{cookie}\t\t  \t  \t {cookie_price:,} Kip ||")
+
+    if donut >= 1:
+        print(f" || Donut  \t\t\t\t\t\t{donut}\t\t  \t  \t {donut_price:,} Kip ||")
+
+    if muffin >= 1:
+        print(f" || Muffin  \t\t\t\t\t{muffin}\t\t  \t  \t {muffin_price:,} Kip ||")
+
+    if croissant >= 1:
+        print(f" || Croissant  \t\t\t\t\t{croissant}\t\t  \t  \t {croissant_price:,} Kip ||")
+
+
+menu_display()
+
 
 total_qty_espresso = espresso_hot_s + espresso_hot_m + espresso_hot_l + espresso_cold_s + espresso_cold_m + espresso_cold_l + espresso_shake_s + espresso_shake_m + espresso_shake_l
 total_price_espresso = (espresso_hot_s * espresso_hot_s_price) + (espresso_hot_m * espresso_hot_m_price) + (espresso_hot_l * espresso_hot_l_price) + (espresso_cold_s * espresso_cold_s_price) + (espresso_cold_m * espresso_cold_m_price) + (espresso_cold_l * espresso_cold_l_price) + (espresso_shake_s * espresso_shake_s_price) + (espresso_shake_m * espresso_shake_m_price) + (espresso_shake_l * espresso_shake_l_price)
@@ -1926,24 +2209,22 @@ total_price_sweets = (cupcake * cupcake_price) + (brownie * brownie_price) + (ma
 total_qty = total_qty_espresso + total_qty_americano + total_qty_latte + total_qty_cappuccino + total_qty_chocolate + total_qty_frappuccino + total_qty_mocha + total_qty_coffee + total_qty_black_tea + total_qty_green_tea + total_qty_oolong_tea + total_qty_chai_tea + total_qty_herbal_tea + total_qty_thai_tea + total_qty_bubble_tea + total_qty_sweets
 total_price = total_price_espresso + total_price_americano + total_price_latte + total_price_cappuccino + total_price_chocolate + total_price_frappuccino + total_price_mocha + total_price_coffee + total_price_black_tea + total_price_green_tea + total_price_oolong_tea + total_price_chai_tea + total_price_herbal_tea + total_price_thai_tea + total_price_bubble_tea + total_price_sweets
 
-print("===================================================")
-print(f" || Total Qty:\t\t\t\t\t\t\t{total_qty} Qty(s) ||")
-print(f" || Total Price:\t\t\t\t\t  {total_price} Kip\t ||")
-print("===================================================")
+print("===============================================================")
+print(f" || Total Qty:\t\t\t\t\t\t\t\t\t{total_qty} Qty(s)   ||")
+print(f" || Total Price:\t\t\t\t\t\t\t\t{total_price:,} Kip ||")
+print("===============================================================")
 
+while pay < total_price:
+    amount = int(input(f"\nPlease enter at least {total_price - pay:,} Kip more: "))
+    pay += amount
 
-
-
-
-
-
-    
-
-
-
-
-    
-    
-
-
-
+print("\n===============================================================")
+print(" ||                           Purchase                      || ")
+print("===============================================================")
+print(f" || Your Balance:\t\t\t\t\t\t\t\t{pay:,} Kip ||")
+print(" ||                                           -             ||")
+print(f" || Total Price:\t\t\t\t\t\t\t\t{total_price:,} Kip ||")
+print("---------------------------------------------------------------")
+money = pay - total_price
+print(f" || Change:                                      {money:,} Kip ||")
+print("---------------------------------------------------------------")
