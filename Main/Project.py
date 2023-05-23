@@ -2284,6 +2284,9 @@ print(f" || Total Price:\t\t\t\t\t\t\t\t{total_price:,} Kip ||")
 print(f" || Baht Rate:\t\t\t\t\t\t\t\t\t   {total_price_bath:.0f} Baht ||")
 print(f" || Dollar Rate:\t\t\t\t\t\t\t\t{total_price_dollar:,} Dollar ||")
 print("===============================================================")
+print(f" || THANK YOU FOR VISITING OUR CAFE!         Rate B : {rate_bath}   ||")
+print(f" || WE APPRECIATE YOUR BUSINESS.             Rate $ : {rate_dollar:,} ||")
+print("===============================================================")
 pay = 0
 pay_kip = 0
 pay_baht = 0
@@ -2317,9 +2320,6 @@ if pay_kip >= 1:
     money = pay - total_price
     print(f" || Change:                                     {money:,} Kip ||")
     print("---------------------------------------------------------------")
-    print(f" || THANK YOU FOR VISITING OUR CAFE!         Rate B : {rate_bath}   ||")
-    print(f" || WE APPRECIATE YOUR BUSINESS.             Rate $ : {rate_dollar:,} ||")
-    print("===============================================================")
 
 if pay_baht >= 1:
     print(f" || Your Balance:\t\t\t\t\t\t\t\t  {pay:.0f} Baht ||")
@@ -2330,9 +2330,6 @@ if pay_baht >= 1:
     money = money * rate_bath
     print(f" || Change:                                     {money:,.0f} Kip ||")
     print("---------------------------------------------------------------")
-    print(f" || THANK YOU FOR VISITING OUR CAFE!         Rate B : {rate_bath}   ||")
-    print(f" || WE APPRECIATE YOUR BUSINESS.             Rate $ : {rate_dollar:,} ||")
-    print("===============================================================")
 
 if pay_dollar >= 1:
     print(f" || Your Balance:\t\t\t\t\t\t\t\t\t    {pay:,}$ ||")
@@ -2343,6 +2340,3 @@ if pay_dollar >= 1:
     money = money * rate_dollar
     print(f" || Change:                                      {money:,.0f} Kip ||")
     print("---------------------------------------------------------------")
-    print(f" || THANK YOU FOR VISITING OUR CAFE!         Rate B : {rate_bath}   ||")
-    print(f" || WE APPRECIATE YOUR BUSINESS.             Rate $ : {rate_dollar:,} ||")
-    print("===============================================================")
