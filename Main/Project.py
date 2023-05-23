@@ -397,6 +397,8 @@ while True:
                     break
                 elif E == "Yes":
                     print(f"\nYour Order is Espresso Hot (S): {espresso_hot_s} cup(s)\n")
+                else:
+                    espresso_hot_s = 0
             elif C == 2:
                 print("Your menu is espresso (M)")
                 qty = int(input("Quantity: "))
@@ -406,6 +408,8 @@ while True:
                     break
                 elif E == "Yes":
                     print(f"\nYour Order is Espresso Hot (M): {espresso_hot_m} cup(s)\n")
+                else:
+                    espresso_hot_m = 0
             elif C == 3:
                 print("Your menu is Espresso Hot (L)")
                 qty = int(input("Quantity: "))
@@ -415,6 +419,8 @@ while True:
                     break
                 elif E == "Yes":
                     print(f"\nYour Order is Espresso Hot (L): {espresso_hot_l} cup(s)\n")
+                else:
+                    espresso_hot_l = 0
         elif B == 2:
             main2()
             C = int(input("Choose: "))
@@ -427,6 +433,8 @@ while True:
                     break
                 elif E == "Yes":
                     print(f"\nYour Order is Espresso Cold (S): {espresso_cold_s} cup(s)\n")
+                else:
+                    espresso_cold_s = 0
             elif C == 2:
                 print("Your menu is Espresso Cold (M)")
                 qty = int(input("Quantity: "))
@@ -436,6 +444,8 @@ while True:
                     break
                 elif E == "Yes":
                     print(f"\nYour Order is Espresso Cold (M): {espresso_cold_m} cup(s)\n")
+                else:
+                    espresso_cold_m = 0
             elif C == 3:
                 print("Your menu is espresso (L)")
                 qty = int(input("Quantity: "))
@@ -445,6 +455,8 @@ while True:
                     break
                 elif E == "Yes":
                     print(f"\nYour Order is Espresso Cold (L): {espresso_cold_l} cup(s)\n")
+                else:
+                    espresso_cold_l = 0
         elif B == 3:
             main2()
             C = int(input("Choose: "))
@@ -457,6 +469,8 @@ while True:
                     break
                 elif E == "Yes":
                     print(f"\nYour Order is Espresso Shake (S): {espresso_shake_s} cup(s)\n")
+                else:
+                    espresso_shake_s = 0
             elif C == 2:
                 print("Your menu is Espresso Shake (M)")
                 qty = int(input("Quantity: "))
@@ -466,6 +480,8 @@ while True:
                     break
                 elif E == "Yes":
                     print(f"\nYour Order is Espresso Shake (M): {espresso_shake_m} cup(s)\n")
+                else:
+                    espresso_shake_m = 0
             elif C == 3:
                 print("Your menu is Espresso Shake (L)")
                 qty = int(input("Quantity: "))
@@ -475,6 +491,8 @@ while True:
                     break
                 elif E == "Yes":
                     print(f"\nYour Order is Espresso Shake (L): {espresso_shake_l} cup(s)\n")
+                else:
+                    espresso_shake_l = 0
     if A == 2:
         main1()
         B = int(input("Choose: "))
@@ -490,6 +508,8 @@ while True:
                     break
                 elif E == "Yes":
                     print(f"\nYour Order is Americano Hot (S): {americano_hot_s} cup(s)\n")
+                else:
+                    americano_hot_s = 0
             elif C == 2:
                 print("Your menu is americano (M)")
                 qty = int(input("Quantity: "))
@@ -499,6 +519,8 @@ while True:
                     break
                 elif E == "Yes":
                     print(f"\nYour Order is Americano Hot (M): {americano_hot_m} cup(s)\n")
+                else:
+                    americano_hot_m = 0
             elif C == 3:
                 print("Your menu is Americano Hot (L)")
                 qty = int(input("Quantity: "))
@@ -508,6 +530,8 @@ while True:
                     break
                 elif E == "Yes":
                     print(f"\nYour Order is Americano Hot (L): {americano_hot_l} cup(s)\n")
+                else:
+                    americano_hot_l = 0  
         elif B == 2:
             main2()
             C = int(input("Choose: "))
@@ -520,6 +544,8 @@ while True:
                     break
                 elif E == "Yes":
                     print(f"\nYour Order is Americano Cold (S): {americano_cold_s} cup(s)\n")
+                else:
+                    americano_cold_s = 0
             elif C == 2:
                 print("Your menu is Americano Cold (M)")
                 qty = int(input("Quantity: "))
@@ -529,6 +555,8 @@ while True:
                     break
                 elif E == "Yes":
                     print(f"\nYour Order is Americano Cold (M): {americano_cold_m} cup(s)\n")
+                else:
+                    americano_cold_m = 0
             elif C == 3:
                 print("Your menu is americano (L)")
                 qty = int(input("Quantity: "))
@@ -538,6 +566,8 @@ while True:
                     break
                 elif E == "Yes":
                     print(f"\nYour Order is Americano Cold (L): {americano_cold_l} cup(s)\n")
+                else:
+                    americano_cold_l = 0
         elif B == 3:
             main2()
             C = int(input("Choose: "))
@@ -550,6 +580,8 @@ while True:
                     break
                 elif E == "Yes":
                     print(f"\nYour Order is Americano Shake (S): {americano_shake_s} cup(s)\n")
+                else:
+                    americano_shake_s = 0
             elif C == 2:
                 print("Your menu is Americano Shake (M)")
                 qty = int(input("Quantity: "))
@@ -559,6 +591,8 @@ while True:
                     break
                 elif E == "Yes":
                     print(f"\nYour Order is Americano Shake (M): {americano_shake_m} cup(s)\n")
+                else:
+                    americano_shake_m = 0
             elif C == 3:
                 print("Your menu is Americano Shake (L)")
                 qty = int(input("Quantity: "))
@@ -568,6 +602,8 @@ while True:
                     break
                 elif E == "Yes":
                     print(f"\nYour Order is Americano Shake (L): {americano_shake_l} cup(s)\n")
+                else:
+                    americano_shake_l = 0
     if A == 3:
         main1()
         B = int(input("Choose: "))
@@ -583,6 +619,8 @@ while True:
                     break
                 elif E == "Yes":
                     print(f"\nYour Order is Latte Hot (S): {latte_hot_s} cup(s)\n")
+                else:
+                    latte_hot_s = 0
             elif C == 2:
                 print("Your menu is latte (M)")
                 qty = int(input("Quantity: "))
@@ -592,6 +630,8 @@ while True:
                     break
                 elif E == "Yes":
                     print(f"\nYour Order is Latte Hot (M): {latte_hot_m} cup(s)\n")
+                else:
+                    latte_hot_m = 0
             elif C == 3:
                 print("Your menu is Latte Hot (L)")
                 qty = int(input("Quantity: "))
@@ -601,6 +641,8 @@ while True:
                     break
                 elif E == "Yes":
                     print(f"\nYour Order is Latte Hot (L): {latte_hot_l} cup(s)\n")
+                else:
+                    latte_hot_l = 0
         elif B == 2:
             main2()
             C = int(input("Choose: "))
@@ -613,6 +655,8 @@ while True:
                     break
                 elif E == "Yes":
                     print(f"\nYour Order is Latte Cold (S): {latte_cold_s} cup(s)\n")
+                else:
+                    latte_cold_s = 0
             elif C == 2:
                 print("Your menu is Latte Cold (M)")
                 qty = int(input("Quantity: "))
@@ -622,6 +666,8 @@ while True:
                     break
                 elif E == "Yes":
                     print(f"\nYour Order is Latte Cold (M): {latte_cold_m} cup(s)\n")
+                else:
+                    latte_cold_m = 0
             elif C == 3:
                 print("Your menu is latte (L)")
                 qty = int(input("Quantity: "))
@@ -631,6 +677,8 @@ while True:
                     break
                 elif E == "Yes":
                     print(f"\nYour Order is Latte Cold (L): {latte_cold_l} cup(s)\n")
+                else:
+                    latte_cold_l = 0
         elif B == 3:
             main2()
             C = int(input("Choose: "))
@@ -643,6 +691,8 @@ while True:
                     break
                 elif E == "Yes":
                     print(f"\nYour Order is Latte Shake (S): {latte_shake_s} cup(s)\n")
+                else:
+                    latte_shake_s = 0
             elif C == 2:
                 print("Your menu is Latte Shake (M)")
                 qty = int(input("Quantity: "))
@@ -652,6 +702,8 @@ while True:
                     break
                 elif E == "Yes":
                     print(f"\nYour Order is Latte Shake (M): {latte_shake_m} cup(s)\n")
+                else:
+                    latte_shake_m = 0
             elif C == 3:
                 print("Your menu is Latte Shake (L)")
                 qty = int(input("Quantity: "))
@@ -661,6 +713,8 @@ while True:
                     break
                 elif E == "Yes":
                     print(f"\nYour Order is Latte Shake (L): {latte_shake_l} cup(s)\n")
+                else:
+                    latte_shake_l = 0
     if A == 4:
         main1()
         B = int(input("Choose: "))
@@ -676,6 +730,8 @@ while True:
                     break
                 elif E == "Yes":
                     print(f"\nYour Order is Cappuccino Hot (S): {cappuccino_hot_s} cup(s)\n")
+                else:
+                    cappuccino_hot_s = 0
             elif C == 2:
                 print("Your menu is cappuccino (M)")
                 qty = int(input("Quantity: "))
@@ -685,6 +741,8 @@ while True:
                     break
                 elif E == "Yes":
                     print(f"\nYour Order is Cappuccino Hot (M): {cappuccino_hot_m} cup(s)\n")
+                else: 
+                    cappuccino_hot_m = 0
             elif C == 3:
                 print("Your menu is Cappuccino Hot (L)")
                 qty = int(input("Quantity: "))
@@ -694,6 +752,8 @@ while True:
                     break
                 elif E == "Yes":
                     print(f"\nYour Order is Cappuccino Hot (L): {cappuccino_hot_l} cup(s)\n")
+                else:
+                    cappuccino_hot_l = 0
         elif B == 2:
             main2()
             C = int(input("Choose: "))
@@ -706,6 +766,8 @@ while True:
                     break
                 elif E == "Yes":
                     print(f"\nYour Order is Cappuccino Cold (S): {cappuccino_cold_s} cup(s)\n")
+                else:
+                    cappuccino_cold_s = 0
             elif C == 2:
                 print("Your menu is Cappuccino Cold (M)")
                 qty = int(input("Quantity: "))
@@ -2209,22 +2271,78 @@ total_price_sweets = (cupcake * cupcake_price) + (brownie * brownie_price) + (ma
 total_qty = total_qty_espresso + total_qty_americano + total_qty_latte + total_qty_cappuccino + total_qty_chocolate + total_qty_frappuccino + total_qty_mocha + total_qty_coffee + total_qty_black_tea + total_qty_green_tea + total_qty_oolong_tea + total_qty_chai_tea + total_qty_herbal_tea + total_qty_thai_tea + total_qty_bubble_tea + total_qty_sweets
 total_price = total_price_espresso + total_price_americano + total_price_latte + total_price_cappuccino + total_price_chocolate + total_price_frappuccino + total_price_mocha + total_price_coffee + total_price_black_tea + total_price_green_tea + total_price_oolong_tea + total_price_chai_tea + total_price_herbal_tea + total_price_thai_tea + total_price_bubble_tea + total_price_sweets
 
+total_price_bath = total_price /300
+total_price_dollar = total_price /8000
+rate_bath = 300
+rate_dollar = 8000
+total_price_bath = total_price /rate_bath
+total_price_dollar = total_price / rate_dollar
+
 print("===============================================================")
 print(f" || Total Qty:\t\t\t\t\t\t\t\t\t{total_qty} Qty(s)   ||")
 print(f" || Total Price:\t\t\t\t\t\t\t\t{total_price:,} Kip ||")
+print(f" || Baht Rate:\t\t\t\t\t\t\t\t\t   {total_price_bath:.0f} Baht ||")
+print(f" || Dollar Rate:\t\t\t\t\t\t\t\t{total_price_dollar:,} Dollar ||")
 print("===============================================================")
-
-while pay < total_price:
-    amount = int(input(f"\nPlease enter at least {total_price - pay:,} Kip more: "))
-    pay += amount
+pay = 0
+pay_kip = 0
+pay_baht = 0
+pay_dollar = 0
+rate = str(input("You wanna pay by baht , dollar or kip: "))
+if rate == "kip" or rate == "k":
+    while pay < total_price:
+        amount = int(input(f"\nPlease enter at least {total_price - pay:,} Kip more: "))
+        pay += amount
+        pay_kip = 1
+elif rate == "baht" or rate == "b":
+    while pay < total_price_bath:
+        amount = int(input(f"\nPlease enter at least {total_price_bath - pay:.0f} Baht more: "))
+        pay += amount
+        pay_baht = 1
+elif rate == "dollar" or rate == "d":
+    while pay < total_price_dollar:
+        amount = int(input(f"\nPlease enter at least {total_price_dollar - pay:,} $ more: "))
+        pay += amount
+        pay_dollar = 1
 
 print("\n===============================================================")
 print(" ||                           Purchase                      || ")
 print("===============================================================")
-print(f" || Your Balance:\t\t\t\t\t\t\t\t{pay:,} Kip ||")
-print(" ||                                           -             ||")
-print(f" || Total Price:\t\t\t\t\t\t\t\t{total_price:,} Kip ||")
-print("---------------------------------------------------------------")
-money = pay - total_price
-print(f" || Change:                                      {money:,} Kip ||")
-print("---------------------------------------------------------------")
+
+if pay_kip >= 1:
+    print(f" || Your Balance:\t\t\t\t\t\t\t\t{pay:,} Kip ||")
+    print(" ||                                           -             ||")
+    print(f" || Total Price:\t\t\t\t\t\t\t\t{total_price:,} Kip ||")
+    print("---------------------------------------------------------------")
+    money = pay - total_price
+    print(f" || Change:                                     {money:,} Kip ||")
+    print("---------------------------------------------------------------")
+    print(f" || THANK YOU FOR VISITING OUR CAFE!         Rate B : {rate_bath}   ||")
+    print(f" || WE APPRECIATE YOUR BUSINESS.             Rate $ : {rate_dollar:,} ||")
+    print("===============================================================")
+
+if pay_baht >= 1:
+    print(f" || Your Balance:\t\t\t\t\t\t\t\t  {pay:.0f} Baht ||")
+    print(" ||                                           -             ||")
+    print(f" || Total Price:\t\t\t\t\t\t\t\t   {total_price_bath:.0f} Baht ||")
+    print("---------------------------------------------------------------")
+    money = pay - total_price_bath
+    money = money * rate_bath
+    print(f" || Change:                                     {money:,.0f} Kip ||")
+    print("---------------------------------------------------------------")
+    print(f" || THANK YOU FOR VISITING OUR CAFE!         Rate B : {rate_bath}   ||")
+    print(f" || WE APPRECIATE YOUR BUSINESS.             Rate $ : {rate_dollar:,} ||")
+    print("===============================================================")
+
+if pay_dollar >= 1:
+    print(f" || Your Balance:\t\t\t\t\t\t\t\t\t    {pay:,}$ ||")
+    print(" ||                                           -             ||")
+    print(f" || Total Price:\t\t\t\t\t\t\t\t{total_price_dollar:,} Dollar ||")
+    print("---------------------------------------------------------------")
+    money = pay - total_price_dollar
+    money = money * rate_dollar
+    print(f" || Change:                                      {money:,.0f} Kip ||")
+    print("---------------------------------------------------------------")
+    print(f" || THANK YOU FOR VISITING OUR CAFE!         Rate B : {rate_bath}   ||")
+    print(f" || WE APPRECIATE YOUR BUSINESS.             Rate $ : {rate_dollar:,} ||")
+    print("===============================================================")
