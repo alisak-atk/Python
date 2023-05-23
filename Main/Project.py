@@ -2271,8 +2271,6 @@ total_price_sweets = (cupcake * cupcake_price) + (brownie * brownie_price) + (ma
 total_qty = total_qty_espresso + total_qty_americano + total_qty_latte + total_qty_cappuccino + total_qty_chocolate + total_qty_frappuccino + total_qty_mocha + total_qty_coffee + total_qty_black_tea + total_qty_green_tea + total_qty_oolong_tea + total_qty_chai_tea + total_qty_herbal_tea + total_qty_thai_tea + total_qty_bubble_tea + total_qty_sweets
 total_price = total_price_espresso + total_price_americano + total_price_latte + total_price_cappuccino + total_price_chocolate + total_price_frappuccino + total_price_mocha + total_price_coffee + total_price_black_tea + total_price_green_tea + total_price_oolong_tea + total_price_chai_tea + total_price_herbal_tea + total_price_thai_tea + total_price_bubble_tea + total_price_sweets
 
-total_price_bath = total_price /300
-total_price_dollar = total_price /8000
 rate_bath = 300
 rate_dollar = 8000
 total_price_bath = total_price /rate_bath
